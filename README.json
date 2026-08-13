@@ -53,7 +53,7 @@
             "last_commit": "2026-08-01T11:46:12Z",
             "owner": "RfidResearchGroup",
             "repo": "proxmark3",
-            "stars": 5932
+            "stars": 5935
           }
         },
         {
@@ -87,7 +87,7 @@
             "last_commit": "2026-08-11T14:44:23Z",
             "owner": "bettercap",
             "repo": "bettercap",
-            "stars": 19778
+            "stars": 19781
           }
         },
         {
@@ -231,7 +231,7 @@
             "last_commit": "2026-05-05T14:02:26Z",
             "owner": "threat9",
             "repo": "routersploit",
-            "stars": 13215
+            "stars": 13216
           }
         },
         {
@@ -549,7 +549,7 @@
             "last_commit": "2026-08-13T03:29:00Z",
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3509
+            "stars": 3508
           }
         },
         {
@@ -627,7 +627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T04:16:07.807Z",
+    "last_updated": "2026-08-13T08:03:37.909Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
     "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",

@@ -1,0 +1,637 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [],
+      "title": "Testing Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "JTAGulator",
+          "description": "An open-source hardware tool that helps identify JTAG and UART interfaces on unknown targets",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Propeller Spin",
+            "last_commit": "2025-07-29T18:27:38Z",
+            "owner": "grandideastudio",
+            "repo": "jtagulator",
+            "stars": 798
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GreatFET",
+          "description": "An open-source hardware hacking tool for interfacing with and instrumenting embedded devices over USB",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-22T07:37:19Z",
+            "owner": "greatscottgadgets",
+            "repo": "greatfet",
+            "stars": 351
+          }
+        }
+      ],
+      "title": "Debugging Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Proxmark Platform",
+          "description": "The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-01T11:46:12Z",
+            "owner": "RfidResearchGroup",
+            "repo": "proxmark3",
+            "stars": 5932
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ChameleonUltra",
+          "description": "An open-source NFC emulation and research platform for low-frequency and high-frequency RFID work",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-10T20:51:58Z",
+            "owner": "RfidResearchGroup",
+            "repo": "ChameleonUltra",
+            "stars": 2911
+          }
+        }
+      ],
+      "title": "RFID and NFC"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "bettercap",
+          "description": "bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energy devices, wireless HID devices and Ethernet networks",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-11T14:44:23Z",
+            "owner": "bettercap",
+            "repo": "bettercap",
+            "stars": 19778
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Btlejack",
+          "description": "Btlejack provides everything you need to sniff, jam and hijack Bluetooth Low Energy devices",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-04T20:31:17Z",
+            "owner": "virtualabs",
+            "repo": "btlejack",
+            "stars": 2104
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sniffle",
+          "description": "A sniffer for Bluetooth 5 and 4.x (LE) using TI CC1352/CC26x2 hardware",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-25T01:32:09Z",
+            "owner": "nccgroup",
+            "repo": "Sniffle",
+            "stars": 1156
+          }
+        }
+      ],
+      "title": "Bluetooth and BLE"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "KillerBee",
+          "description": "Framework and tools for sniffing, injecting, and auditing Zigbee and IEEE 802.15.4 networks",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-09-12T09:39:25Z",
+            "owner": "riverloopsec",
+            "repo": "killerbee",
+            "stars": 845
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ZigDiggity",
+          "description": "ZigBee Hacking Toolkit",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2021-09-13T19:18:14Z",
+            "owner": "BishopFox",
+            "repo": "zigdiggity",
+            "stars": 298
+          }
+        }
+      ],
+      "title": "Zigbee"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "ChipSHOUTER-PicoEMP Kit",
+          "description": "A lower-cost PicoEMP build for self-study and hobbyist EMFI research from the NewAE ecosystem",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-08-28T13:09:25Z",
+            "owner": "newaetech",
+            "repo": "chipshouter-picoemp",
+            "stars": 753
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RP2040: Pico Glitcher",
+          "description": "Low-cost, Raspberry Pi Pico chip based voltage glitcher",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-05-06T09:52:25Z",
+            "owner": "ZeusWPI",
+            "repo": "pico-glitcher",
+            "stars": 103
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ICEStick ICE40 FPGA Glitcher",
+          "description": "The iCEstick Glitcher is a simple voltage glitcher for a Lattice iCEstick Evaluation Kit",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Verilog",
+            "last_commit": "2020-01-30T09:45:54Z",
+            "owner": "SySS-Research",
+            "repo": "icestick-glitcher",
+            "stars": 63
+          }
+        }
+      ],
+      "title": "Fault Injection - Glitching and Side Channel Analysis"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Binwalk",
+          "description": "Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T15:27:34Z",
+            "owner": "ReFirmLabs",
+            "repo": "binwalk",
+            "stars": 14223
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RouterSploit",
+          "description": "The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-05T14:02:26Z",
+            "owner": "threat9",
+            "repo": "routersploit",
+            "stars": 13215
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EMBA The security analyzer for firmware of embedded devices",
+          "description": "EMBA is designed as the central firmware analysis tool for penetration testers and product security teams. It supports the complete security analysis process starting with firmware extraction, doing static analysis and dynamic analysis via emulation and finally generating a web report",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-11T03:52:23Z",
+            "owner": "e-m-b-a",
+            "repo": "emba",
+            "stars": 3593
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Unblob",
+          "description": "Unblob is an accurate, fast, and easy-to-use extraction suite. It parses unknown binary blobs for more than 30 different archive, compression, and file-system formats, extracts their content recursively, and carves out unknown chunks that have not been accounted for",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T04:32:54Z",
+            "owner": "onekey-sec",
+            "repo": "unblob",
+            "stars": 2539
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FIRMADYNE",
+          "description": "An automated system for performing emulation and dynamic analysis of Linux-based embedded firmware",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2024-07-21T00:21:54Z",
+            "owner": "firmadyne",
+            "repo": "firmadyne",
+            "stars": 2097
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Firmware Mod Kit",
+          "description": "The Firmware Mod Kit allows for easy deconstruction and reconstruction of firmware images for various embedded devices. While it primarily targets Linux based routers, it should be compatible with most firmware that makes use of common firmware formats and file systems such as TRX/uImage and SquashFS/CramFS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-17T15:27:22Z",
+            "owner": "rampageX",
+            "repo": "firmware-mod-kit",
+            "stars": 997
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HomePwn - Swiss Army Knife for Pentesting of IoT Devices",
+          "description": "HomePwn is a framework that provides features to audit and pentesting devices that company employees can use in their day-to-day work and inside the same working environment. It is designed to find devices in the home or office, take advantage of certain vulnerabilities to read or send data to those devices",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-12-27T15:37:06Z",
+            "owner": "Telefonica",
+            "repo": "HomePWN",
+            "stars": 932
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FirmAE",
+          "description": "A scalable firmware emulation framework that improves analysis coverage for Linux-based IoT firmware",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-24T15:34:02Z",
+            "owner": "pr0v3rbs",
+            "repo": "FirmAE",
+            "stars": 907
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FirmWire",
+          "description": "A full-system baseband firmware emulation platform for dynamic analysis of embedded and mobile firmware",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-11T00:22:02Z",
+            "owner": "FirmWire",
+            "repo": "FirmWire",
+            "stars": 874
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HAL - The Hardware Analyzer",
+          "description": "HAL is a comprehensive netlist reverse engineering and manipulation framework",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T14:24:07Z",
+            "owner": "emsec",
+            "repo": "hal",
+            "stars": 816
+          }
+        }
+      ],
+      "title": "Firmware Analysis and Exploit Frameworks"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "AFL++",
+          "description": "AFL++ is a superior fork to Google's AFL - more speed, more and better mutations, more and better instrumentation, custom module support",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T15:48:52Z",
+            "owner": "AFLplusplus",
+            "repo": "AFLplusplus",
+            "stars": 6705
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Boofuzz: Network Protocol Fuzzing for Humans",
+          "description": "Boofuzz is a fork of and the successor to the venerable Sulley fuzzing framework. Besides numerous bug fixes, boofuzz aims for extensibility",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-06T20:36:50Z",
+            "owner": "jtpereyda",
+            "repo": "boofuzz",
+            "stars": 2355
+          }
+        }
+      ],
+      "title": "Fuzzing"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "CHIPSEC",
+          "description": "A platform security assessment framework for analyzing the security of PC hardware, firmware, and low-level platform components",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-07T17:41:44Z",
+            "owner": "chipsec",
+            "repo": "chipsec",
+            "stars": 3294
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Flashrom",
+          "description": "Flashrom is a utility for detecting, reading, writing, verifying and erasing flash chips. It is often used to flash BIOS/EFI/coreboot/firmware images in-system using a supported mainboard, but it also supports flashing of network cards (NICs), SATA controller cards, and other external devices which can program flash chips",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-07T11:05:35Z",
+            "owner": "flashrom",
+            "repo": "flashrom",
+            "stars": 1156
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "JTAGenum",
+          "description": "Given an Arduino compatible microcontroller or Raspberry PI (experimental), JTAGenum scans pins for basic JTAG functionality and can be used to enumerate the Instruction Register for undocumented instructions",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2023-10-30T08:40:07Z",
+            "owner": "cyphunk",
+            "repo": "JTAGenum",
+            "stars": 799
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dumpflash",
+          "description": "Low-level NAND Flash dump and parsing utility",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-03-17T17:39:50Z",
+            "owner": "ohjeongwook",
+            "repo": "dumpflash",
+            "stars": 321
+          }
+        }
+      ],
+      "title": "Misc Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "IoTGoat",
+          "description": "A deliberately insecure OpenWrt-based firmware for learning and practicing IoT security testing",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-10-05T01:37:06Z",
+            "owner": "OWASP",
+            "repo": "IoTGoat",
+            "stars": 917
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EMUX",
+          "description": "An embedded device emulation framework that is useful for building reproducible firmware-analysis labs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-08-22T12:38:13Z",
+            "owner": "therealsaumil",
+            "repo": "emux",
+            "stars": 871
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DVRF: Damn Vulnerable Router Firmware",
+          "description": "A vulnerable router firmware image built for hands-on embedded web and firmware exploitation practice",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "HTML",
+            "last_commit": "2021-04-07T22:27:40Z",
+            "owner": "praetorian-inc",
+            "repo": "DVRF",
+            "stars": 720
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RHme-2016",
+          "description": "Riscure Hack Me 2 hardware CTF challenge",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-08-28T22:11:50Z",
+            "owner": "Riscure",
+            "repo": "Rhme-2016",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RHme-2015",
+          "description": "Riscure Hack Me hardware CTF challenge",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-08-25T18:46:17Z",
+            "owner": "Riscure",
+            "repo": "RHme-2015",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RHme-2017/2018",
+          "description": "Riscure Hack Me 3 hardware CTF challenge",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-08-28T22:21:07Z",
+            "owner": "Riscure",
+            "repo": "Rhme-2017",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "Practice Targets and CTFs"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Awesome Connected Things Security",
+          "description": "A curated list of IoT and connected-things security resources",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-13T03:29:00Z",
+            "owner": "V33RU",
+            "repo": "awesome-connected-things-sec",
+            "stars": 3509
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome IoT Hacks",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2020-05-16T21:18:59Z",
+            "owner": "nebgnahz",
+            "repo": "awesome-iot-hacks",
+            "stars": 2418
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Embedded and IoT Security",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-10-17T12:23:20Z",
+            "owner": "fkie-cad",
+            "repo": "awesome-embedded-and-iot-security",
+            "stars": 2414
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TEE Reversing",
+          "description": "A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-01-07T15:23:21Z",
+            "owner": "enovella",
+            "repo": "TEE-reversing",
+            "stars": 1032
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Bluetooth Security (BR, EDR, LE, and Mesh)",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2025-10-03T22:06:03Z",
+            "owner": "engn33r",
+            "repo": "awesome-bluetooth-security",
+            "stars": 611
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Embedded Linux",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-01-25T19:43:44Z",
+            "owner": "fkromer",
+            "repo": "awesome-embedded-linux",
+            "stars": 422
+          }
+        }
+      ],
+      "title": "Awesome Lists"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:16:07.807Z",
+    "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
+    "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
+    "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",
+    "enhanced_repository_description": null,
+    "title": "Awesome IoT and Hardware Security with stars"
+  }
+}

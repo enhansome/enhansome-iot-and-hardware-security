@@ -19,7 +19,7 @@
             "last_commit": "2025-07-29T18:27:38Z",
             "owner": "grandideastudio",
             "repo": "jtagulator",
-            "stars": 799
+            "stars": 800
           }
         },
         {
@@ -53,7 +53,7 @@
             "last_commit": "2026-08-01T11:46:12Z",
             "owner": "RfidResearchGroup",
             "repo": "proxmark3",
-            "stars": 5939
+            "stars": 5943
           }
         },
         {
@@ -67,7 +67,7 @@
             "last_commit": "2026-08-10T20:51:58Z",
             "owner": "RfidResearchGroup",
             "repo": "ChameleonUltra",
-            "stars": 2920
+            "stars": 2921
           }
         }
       ],
@@ -87,7 +87,7 @@
             "last_commit": "2026-08-13T13:47:49Z",
             "owner": "bettercap",
             "repo": "bettercap",
-            "stars": 19791
+            "stars": 19793
           }
         },
         {
@@ -217,7 +217,7 @@
             "last_commit": "2026-08-11T15:27:34Z",
             "owner": "ReFirmLabs",
             "repo": "binwalk",
-            "stars": 14227
+            "stars": 14229
           }
         },
         {
@@ -231,7 +231,7 @@
             "last_commit": "2026-05-05T14:02:26Z",
             "owner": "threat9",
             "repo": "routersploit",
-            "stars": 13218
+            "stars": 13216
           }
         },
         {
@@ -245,7 +245,7 @@
             "last_commit": "2026-08-11T03:52:23Z",
             "owner": "e-m-b-a",
             "repo": "emba",
-            "stars": 3593
+            "stars": 3594
           }
         },
         {
@@ -301,7 +301,7 @@
             "last_commit": "2022-12-27T15:37:06Z",
             "owner": "Telefonica",
             "repo": "HomePWN",
-            "stars": 932
+            "stars": 931
           }
         },
         {
@@ -340,7 +340,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-13T17:09:34Z",
+            "last_commit": "2026-08-14T14:37:11Z",
             "owner": "emsec",
             "repo": "hal",
             "stars": 816
@@ -360,10 +360,10 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-13T09:55:03Z",
+            "last_commit": "2026-08-14T14:25:13Z",
             "owner": "AFLplusplus",
             "repo": "AFLplusplus",
-            "stars": 6709
+            "stars": 6713
           }
         },
         {
@@ -411,7 +411,7 @@
             "last_commit": "2026-08-07T11:05:35Z",
             "owner": "flashrom",
             "repo": "flashrom",
-            "stars": 1158
+            "stars": 1161
           }
         },
         {
@@ -549,7 +549,7 @@
             "last_commit": "2026-08-13T03:29:00Z",
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3509
+            "stars": 3511
           }
         },
         {
@@ -577,7 +577,7 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2415
+            "stars": 2416
           }
         },
         {
@@ -619,7 +619,7 @@
             "last_commit": "2026-01-25T19:43:44Z",
             "owner": "fkromer",
             "repo": "awesome-embedded-linux",
-            "stars": 422
+            "stars": 423
           }
         }
       ],
@@ -627,7 +627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T07:59:34.293Z",
+    "last_updated": "2026-08-15T07:09:09.777Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
     "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",

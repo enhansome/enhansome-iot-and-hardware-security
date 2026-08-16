@@ -53,7 +53,7 @@
             "last_commit": "2026-08-01T11:46:12Z",
             "owner": "RfidResearchGroup",
             "repo": "proxmark3",
-            "stars": 5943
+            "stars": 5949
           }
         },
         {
@@ -67,7 +67,7 @@
             "last_commit": "2026-08-10T20:51:58Z",
             "owner": "RfidResearchGroup",
             "repo": "ChameleonUltra",
-            "stars": 2921
+            "stars": 2923
           }
         }
       ],
@@ -87,7 +87,7 @@
             "last_commit": "2026-08-13T13:47:49Z",
             "owner": "bettercap",
             "repo": "bettercap",
-            "stars": 19793
+            "stars": 19802
           }
         },
         {
@@ -217,7 +217,7 @@
             "last_commit": "2026-08-11T15:27:34Z",
             "owner": "ReFirmLabs",
             "repo": "binwalk",
-            "stars": 14229
+            "stars": 14233
           }
         },
         {
@@ -259,7 +259,7 @@
             "last_commit": "2026-08-10T04:32:54Z",
             "owner": "onekey-sec",
             "repo": "unblob",
-            "stars": 2539
+            "stars": 2541
           }
         },
         {
@@ -287,7 +287,7 @@
             "last_commit": "2026-02-17T15:27:22Z",
             "owner": "rampageX",
             "repo": "firmware-mod-kit",
-            "stars": 997
+            "stars": 998
           }
         },
         {
@@ -315,7 +315,7 @@
             "last_commit": "2026-06-24T15:34:02Z",
             "owner": "pr0v3rbs",
             "repo": "FirmAE",
-            "stars": 907
+            "stars": 908
           }
         },
         {
@@ -343,7 +343,7 @@
             "last_commit": "2026-08-14T14:37:11Z",
             "owner": "emsec",
             "repo": "hal",
-            "stars": 816
+            "stars": 817
           }
         }
       ],
@@ -360,10 +360,10 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-14T14:25:13Z",
+            "last_commit": "2026-08-15T15:27:00Z",
             "owner": "AFLplusplus",
             "repo": "AFLplusplus",
-            "stars": 6713
+            "stars": 6716
           }
         },
         {
@@ -411,7 +411,7 @@
             "last_commit": "2026-08-07T11:05:35Z",
             "owner": "flashrom",
             "repo": "flashrom",
-            "stars": 1161
+            "stars": 1164
           }
         },
         {
@@ -425,7 +425,7 @@
             "last_commit": "2023-10-30T08:40:07Z",
             "owner": "cyphunk",
             "repo": "JTAGenum",
-            "stars": 799
+            "stars": 800
           }
         },
         {
@@ -549,7 +549,7 @@
             "last_commit": "2026-08-13T03:29:00Z",
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3511
+            "stars": 3512
           }
         },
         {
@@ -563,7 +563,7 @@
             "last_commit": "2020-05-16T21:18:59Z",
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2418
+            "stars": 2419
           }
         },
         {
@@ -577,7 +577,7 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2416
+            "stars": 2418
           }
         },
         {
@@ -627,7 +627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T07:09:09.777Z",
+    "last_updated": "2026-08-16T07:16:03.903Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
     "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",

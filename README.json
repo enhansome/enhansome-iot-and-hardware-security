@@ -53,7 +53,7 @@
             "last_commit": "2026-08-01T11:46:12Z",
             "owner": "RfidResearchGroup",
             "repo": "proxmark3",
-            "stars": 5949
+            "stars": 5953
           }
         },
         {
@@ -67,7 +67,7 @@
             "last_commit": "2026-08-10T20:51:58Z",
             "owner": "RfidResearchGroup",
             "repo": "ChameleonUltra",
-            "stars": 2923
+            "stars": 2925
           }
         }
       ],
@@ -87,7 +87,7 @@
             "last_commit": "2026-08-13T13:47:49Z",
             "owner": "bettercap",
             "repo": "bettercap",
-            "stars": 19802
+            "stars": 19810
           }
         },
         {
@@ -217,7 +217,7 @@
             "last_commit": "2026-08-11T15:27:34Z",
             "owner": "ReFirmLabs",
             "repo": "binwalk",
-            "stars": 14233
+            "stars": 14232
           }
         },
         {
@@ -242,7 +242,7 @@
           "repo_info": {
             "archived": false,
             "language": "Shell",
-            "last_commit": "2026-08-11T03:52:23Z",
+            "last_commit": "2026-08-17T02:23:11Z",
             "owner": "e-m-b-a",
             "repo": "emba",
             "stars": 3594
@@ -256,7 +256,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-10T04:32:54Z",
+            "last_commit": "2026-08-17T02:46:53Z",
             "owner": "onekey-sec",
             "repo": "unblob",
             "stars": 2541
@@ -273,7 +273,7 @@
             "last_commit": "2024-07-21T00:21:54Z",
             "owner": "firmadyne",
             "repo": "firmadyne",
-            "stars": 2097
+            "stars": 2098
           }
         },
         {
@@ -315,7 +315,7 @@
             "last_commit": "2026-06-24T15:34:02Z",
             "owner": "pr0v3rbs",
             "repo": "FirmAE",
-            "stars": 908
+            "stars": 911
           }
         },
         {
@@ -329,7 +329,7 @@
             "last_commit": "2026-07-11T00:22:02Z",
             "owner": "FirmWire",
             "repo": "FirmWire",
-            "stars": 874
+            "stars": 875
           }
         },
         {
@@ -360,10 +360,10 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-15T15:27:00Z",
+            "last_commit": "2026-08-16T14:32:09Z",
             "owner": "AFLplusplus",
             "repo": "AFLplusplus",
-            "stars": 6716
+            "stars": 6717
           }
         },
         {
@@ -394,10 +394,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-13T22:03:03Z",
+            "last_commit": "2026-08-17T01:08:46Z",
             "owner": "chipsec",
             "repo": "chipsec",
-            "stars": 3295
+            "stars": 3296
           }
         },
         {
@@ -549,21 +549,7 @@
             "last_commit": "2026-08-13T03:29:00Z",
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3512
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Awesome IoT Hacks",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2020-05-16T21:18:59Z",
-            "owner": "nebgnahz",
-            "repo": "awesome-iot-hacks",
-            "stars": 2419
+            "stars": 3514
           }
         },
         {
@@ -577,7 +563,21 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2418
+            "stars": 2421
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome IoT Hacks",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2020-05-16T21:18:59Z",
+            "owner": "nebgnahz",
+            "repo": "awesome-iot-hacks",
+            "stars": 2421
           }
         },
         {
@@ -627,7 +627,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T07:16:03.903Z",
+    "last_updated": "2026-08-17T07:36:30.842Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
     "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",

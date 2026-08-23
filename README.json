@@ -51,10 +51,10 @@
                 "archived": false,
                 "id": 144465372,
                 "language": "C",
-                "last_commit": "2026-08-21T22:54:39Z",
+                "last_commit": "2026-08-22T23:28:53Z",
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 5975
+                "stars": 5977
               }
             },
             {
@@ -69,7 +69,7 @@
                 "last_commit": "2026-08-10T20:51:58Z",
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2939
+                "stars": 2943
               }
             }
           ],
@@ -91,7 +91,7 @@
                 "last_commit": "2026-08-13T13:47:49Z",
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19837
+                "stars": 19845
               }
             },
             {
@@ -106,7 +106,7 @@
                 "last_commit": "2024-08-04T20:31:17Z",
                 "owner": "virtualabs",
                 "repo": "btlejack",
-                "stars": 2106
+                "stars": 2107
               }
             },
             {
@@ -143,7 +143,7 @@
                 "last_commit": "2023-09-12T09:39:25Z",
                 "owner": "riverloopsec",
                 "repo": "killerbee",
-                "stars": 847
+                "stars": 848
               }
             },
             {
@@ -232,7 +232,7 @@
                 "last_commit": "2026-08-11T15:27:34Z",
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14253
+                "stars": 14256
               }
             },
             {
@@ -259,10 +259,10 @@
                 "archived": false,
                 "id": 290152313,
                 "language": "Shell",
-                "last_commit": "2026-08-18T19:37:49Z",
+                "last_commit": "2026-08-22T16:59:57Z",
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3599
+                "stars": 3603
               }
             },
             {
@@ -277,7 +277,7 @@
                 "last_commit": "2026-08-21T11:26:40Z",
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2542
+                "stars": 2543
               }
             },
             {
@@ -292,7 +292,7 @@
                 "last_commit": "2024-07-21T00:21:54Z",
                 "owner": "firmadyne",
                 "repo": "firmadyne",
-                "stars": 2099
+                "stars": 2100
               }
             },
             {
@@ -337,7 +337,7 @@
                 "last_commit": "2026-06-24T15:34:02Z",
                 "owner": "pr0v3rbs",
                 "repo": "FirmAE",
-                "stars": 915
+                "stars": 916
               }
             },
             {
@@ -389,7 +389,7 @@
                 "last_commit": "2026-08-22T06:58:17Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6730
+                "stars": 6731
               }
             },
             {
@@ -497,7 +497,7 @@
             "last_commit": "2025-10-05T01:37:06Z",
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 918
+            "stars": 919
           }
         },
         {
@@ -527,7 +527,7 @@
             "last_commit": "2021-04-07T22:27:40Z",
             "owner": "praetorian-inc",
             "repo": "DVRF",
-            "stars": 720
+            "stars": 721
           }
         },
         {
@@ -593,7 +593,7 @@
             "last_commit": "2026-08-18T14:04:55Z",
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3519
+            "stars": 3520
           }
         },
         {
@@ -608,7 +608,7 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2425
+            "stars": 2426
           }
         },
         {
@@ -676,7 +676,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T07:17:10.740Z",
+    "last_updated": "2026-08-23T07:18:19.534Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_id": 677842136,
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",

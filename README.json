@@ -17,7 +17,7 @@
                 "last_commit": "2025-07-29T18:27:38Z",
                 "owner": "grandideastudio",
                 "repo": "jtagulator",
-                "stars": 800
+                "stars": 801
               }
             },
             {
@@ -51,10 +51,10 @@
                 "archived": false,
                 "id": 144465372,
                 "language": "C",
-                "last_commit": "2026-08-22T23:28:53Z",
+                "last_commit": "2026-08-23T20:35:32Z",
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 5977
+                "stars": 5981
               }
             },
             {
@@ -69,7 +69,7 @@
                 "last_commit": "2026-08-10T20:51:58Z",
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2943
+                "stars": 2946
               }
             }
           ],
@@ -91,7 +91,7 @@
                 "last_commit": "2026-08-13T13:47:49Z",
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19845
+                "stars": 19850
               }
             },
             {
@@ -121,7 +121,7 @@
                 "last_commit": "2025-09-25T01:32:09Z",
                 "owner": "nccgroup",
                 "repo": "Sniffle",
-                "stars": 1158
+                "stars": 1159
               }
             }
           ],
@@ -180,7 +180,7 @@
                 "last_commit": "2024-08-28T13:09:25Z",
                 "owner": "newaetech",
                 "repo": "chipshouter-picoemp",
-                "stars": 755
+                "stars": 756
               }
             },
             {
@@ -232,7 +232,7 @@
                 "last_commit": "2026-08-11T15:27:34Z",
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14256
+                "stars": 14262
               }
             },
             {
@@ -259,10 +259,10 @@
                 "archived": false,
                 "id": 290152313,
                 "language": "Shell",
-                "last_commit": "2026-08-22T16:59:57Z",
+                "last_commit": "2026-08-24T02:55:03Z",
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3603
+                "stars": 3607
               }
             },
             {
@@ -274,10 +274,10 @@
                 "archived": false,
                 "id": 374917397,
                 "language": "Python",
-                "last_commit": "2026-08-21T11:26:40Z",
+                "last_commit": "2026-08-24T01:45:39Z",
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2543
+                "stars": 2544
               }
             },
             {
@@ -292,7 +292,7 @@
                 "last_commit": "2024-07-21T00:21:54Z",
                 "owner": "firmadyne",
                 "repo": "firmadyne",
-                "stars": 2100
+                "stars": 2102
               }
             },
             {
@@ -307,7 +307,7 @@
                 "last_commit": "2026-02-17T15:27:22Z",
                 "owner": "rampageX",
                 "repo": "firmware-mod-kit",
-                "stars": 999
+                "stars": 1000
               }
             },
             {
@@ -337,7 +337,7 @@
                 "last_commit": "2026-06-24T15:34:02Z",
                 "owner": "pr0v3rbs",
                 "repo": "FirmAE",
-                "stars": 916
+                "stars": 918
               }
             },
             {
@@ -352,7 +352,7 @@
                 "last_commit": "2026-08-20T11:02:19Z",
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 877
+                "stars": 878
               }
             },
             {
@@ -364,10 +364,10 @@
                 "archived": false,
                 "id": 169076171,
                 "language": "C++",
-                "last_commit": "2026-08-21T15:28:50Z",
+                "last_commit": "2026-08-24T06:53:59Z",
                 "owner": "emsec",
                 "repo": "hal",
-                "stars": 820
+                "stars": 821
               }
             }
           ],
@@ -386,10 +386,10 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-22T06:58:17Z",
+                "last_commit": "2026-08-23T09:13:47Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6731
+                "stars": 6733
               }
             },
             {
@@ -423,7 +423,7 @@
                 "archived": false,
                 "id": 17494082,
                 "language": "Python",
-                "last_commit": "2026-08-22T00:22:57Z",
+                "last_commit": "2026-08-24T01:06:47Z",
                 "owner": "chipsec",
                 "repo": "chipsec",
                 "stars": 3294
@@ -441,7 +441,7 @@
                 "last_commit": "2026-08-17T16:05:36Z",
                 "owner": "flashrom",
                 "repo": "flashrom",
-                "stars": 1167
+                "stars": 1168
               }
             },
             {
@@ -608,7 +608,7 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2426
+            "stars": 2428
           }
         },
         {
@@ -623,7 +623,7 @@
             "last_commit": "2020-05-16T21:18:59Z",
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2423
+            "stars": 2424
           }
         },
         {
@@ -676,7 +676,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T07:18:19.534Z",
+    "last_updated": "2026-08-24T07:42:08.574Z",
     "original_repository": "kayranfatih/awesome-iot-and-hardware-security",
     "original_repository_id": 677842136,
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",

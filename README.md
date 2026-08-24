@@ -55,20 +55,20 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ### SDR
 
-* [GNURadio](https://github.com/gnuradio/gnuradio) ⭐ 6,230 | 🐛 607 | 🌐 C++ | 📅 2026-08-24 - GNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment
+* [GNURadio](https://github.com/gnuradio/gnuradio) ⭐ 6,231 | 🐛 606 | 🌐 C++ | 📅 2026-08-24 - GNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment
 * [RTL-SDR](https://www.rtl-sdr.com/) - The RTL-SDR is an ultra cheap software defined radio based on DVB-T TV tuners with RTL2832U chips. The RTL-SDR can be used as a wide band radio scanner. It may interest ham radio enthusiasts, hardware hackers, tinkerers and anyone interested in RF
 * [HackRF One](https://greatscottgadgets.com/hackrf/one/) - HackRF One from Great Scott Gadgets is a Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz. Designed to enable test and development of modern and next generation radio technologies, HackRF One is an open source hardware platform that can be used as a USB peripheral or programmed for stand-alone operation
 * [BladeRF](https://www.nuand.com/bladerf-1/) - bladeRF is a Software Defined Radio (SDR) platform designed to enable a community of hobbyists, and professionals to explore and experiment with the multidisciplinary facets of RF communication
 
 ### RFID and NFC
 
-* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,981 | 🐛 79 | 🌐 C | 📅 2026-08-23 - The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis
+* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,981 | 🐛 78 | 🌐 C | 📅 2026-08-24 - The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis
 * [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,946 | 🐛 118 | 🌐 C | 📅 2026-08-10 - An open-source NFC emulation and research platform for low-frequency and high-frequency RFID work
 * [HydraNFC](https://hydrabus.com/hydranfc-1-0-specifications) - HydraNFC Shield v1.0 is an NFC shield hardware (to be plugged on top of HydraBus) to sniff/read/write/emulate any 13.56MHz NFC tags for anyone interested in advanced NFC Research/Dev/Debug/Hack/PenTest on NFC products
 
 ### Bluetooth and BLE
 
-* [bettercap](https://github.com/bettercap/bettercap) ⭐ 19,850 | 🐛 44 | 🌐 Go | 📅 2026-08-13 - bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energy devices, wireless HID devices and Ethernet networks
+* [bettercap](https://github.com/bettercap/bettercap) ⭐ 19,853 | 🐛 44 | 🌐 Go | 📅 2026-08-13 - bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energy devices, wireless HID devices and Ethernet networks
 * [Btlejack](https://github.com/virtualabs/btlejack) ⭐ 2,107 | 🐛 28 | 🌐 Python | 📅 2024-08-04 - Btlejack provides everything you need to sniff, jam and hijack Bluetooth Low Energy devices
 * [Sniffle](https://github.com/nccgroup/Sniffle) ⭐ 1,159 | 🐛 31 | 🌐 Python | 📅 2025-09-25 - A sniffer for Bluetooth 5 and 4.x (LE) using TI CC1352/CC26x2 hardware
 * [Ubertooth One](https://greatscottgadgets.com/ubertoothone/) - Ubertooth One is an open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation
@@ -101,7 +101,7 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ### Firmware Analysis and Exploit Frameworks
 
-* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,262 | 🐛 92 | 🌐 Rust | 📅 2026-08-11 - Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images
+* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,264 | 🐛 92 | 🌐 Rust | 📅 2026-08-11 - Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images
 * [RouterSploit](https://github.com/threat9/routersploit) ⭐ 13,218 | 🐛 97 | 🌐 Python | 📅 2026-05-05 - The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices
 * [EMBA The security analyzer for firmware of embedded devices](https://github.com/e-m-b-a/emba) ⭐ 3,607 | 🐛 32 | 🌐 Shell | 📅 2026-08-24 - EMBA is designed as the central firmware analysis tool for penetration testers and product security teams. It supports the complete security analysis process starting with firmware extraction, doing static analysis and dynamic analysis via emulation and finally generating a web report
 * [Unblob](https://github.com/onekey-sec/unblob) ⭐ 2,544 | 🐛 36 | 🌐 Python | 📅 2026-08-24 - Unblob is an accurate, fast, and easy-to-use extraction suite. It parses unknown binary blobs for more than 30 different archive, compression, and file-system formats, extracts their content recursively, and carves out unknown chunks that have not been accounted for
@@ -141,10 +141,10 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ## Penetration Test Use-Cases
 
+* [Bosch Smart Home Hacks by Sebastien Leger](https://github.com/vegantransistor/BoschSmartHome) ⭐ 26 | 🐛 1 | 🌐 C | 📅 2023-08-16
 * [Getting Root on Philips Hue Bridge 2.0 by Colin O'Flynn](https://colinoflynn.com/2016/07/getting-root-on-philips-hue-bridge-2-0/)
 * [How I hacked a hardware crypto wallet and recovered $2 million by Joe Grand](https://youtu.be/dT9y-KQbqi4?si=k1Zwfd0KIZgRZb-j)
 * [How the Apple AirTags were hacked by Thomas Roth](https://www.youtube.com/watch?v=_E0PWQvW-14)
-* [Bosch Smart Home Hacks by Sebastien Leger](https://github.com/vegantransistor/BoschSmartHome) ⭐ 26 | 🐛 1 | 🌐 C | 📅 2023-08-16
 * [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal by Lennert Wouters](https://www.youtube.com/watch?v=NXqLMmGwJm0)
 * [SECGlitcher - Reproducible Voltage Glitching on STM32 Microcontrollers by SEC Consult](https://sec-consult.com/blog/detail/secglitcher-part-1-reproducible-voltage-glitching-on-stm32-microcontrollers/)
 * [Fault Injection Attacks against the ESP32-C3 and ESP32-C6 by Kevin Courdesses](https://courk.cc/esp32-c3-c6-fault-injection)
@@ -174,11 +174,11 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ## Books
 
+* [The Hacker's Hardware Toolkit: The best collection of hardware gadgets for red team hackers, pentesters and security researchers](https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf) ⭐ 2,176 | 🐛 5 | 📅 2020-09-07 - 2020, Publisher: N/A, Author(s): Yago Hansen
 * [Arm Assembly Internals and Reverse Engineering: Blue Fox Edition](https://www.wiley.com/en-be/Blue+Fox:+Arm+Assembly+Internals+and+Reverse+Engineering-p-9781119745303) - 2023, Publisher: Wiley, Author(s): Maria Markstedter aka Azeria
 * [Practical Hardware Pentesting, Second edition](https://www.packtpub.com/product/practical-hardware-pentesting-second-edition-second-edition/9781803249322) - 2023, Publisher: Packt, Author(s): Jean-Georges Valle
 * [Hardware Security Training, Hands-on!](https://link.springer.com/book/10.1007/978-3-031-31034-8) - 2023, Publisher: Springer, Author(s): Mark Tehranipoor, N. Nalla Anandakumar, Farimah Farahmandi
 * [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks](https://nostarch.com/hardwarehacking) - 2021, Publisher: No Starch Press, Author(s): Jasper van Woudenberg, Colin O'Flynn
-* [The Hacker's Hardware Toolkit: The best collection of hardware gadgets for red team hackers, pentesters and security researchers](https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf) ⭐ 2,176 | 🐛 5 | 📅 2020-09-07 - 2020, Publisher: N/A, Author(s): Yago Hansen
 * [The IoT Hacker's Handbook: A Practical Guide to Hacking the Internet of Things](https://www.oreilly.com/library/view/the-iot-hackers/9781484243008/) - 2019, Publisher: Apress, Author(s):  Aditya Gupta
 * [Hardware Security: A Hands-on Learning Approach](https://shop.elsevier.com/books/hardware-security/bhunia/978-0-12-812477-2) - 2018, Publisher: Morgan Kaufmann, Author(s): Swarup Bhunia, Mark M. Tehranipoor
 * [IoT Penetration Testing Cookbook](https://www.packtpub.com/product/iot-penetration-testing-cookbook/9781787280571) - 2017, Publisher: Packt, Author(s): Aaron Guzman, Aditya Gupta

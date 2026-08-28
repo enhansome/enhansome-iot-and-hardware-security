@@ -18,7 +18,8 @@
                 "owner": "grandideastudio",
                 "repo": "jtagulator",
                 "stars": 802
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -33,7 +34,8 @@
                 "owner": "greatscottgadgets",
                 "repo": "greatfet",
                 "stars": 353
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -51,11 +53,12 @@
                 "archived": false,
                 "id": 3030065,
                 "language": "C++",
-                "last_commit": "2026-08-27T15:30:30Z",
+                "last_commit": "2026-08-27T23:02:01Z",
                 "owner": "gnuradio",
                 "repo": "gnuradio",
-                "stars": 6238
-              }
+                "stars": 6240
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -73,11 +76,12 @@
                 "archived": false,
                 "id": 144465372,
                 "language": "C",
-                "last_commit": "2026-08-27T15:06:19Z",
+                "last_commit": "2026-08-28T13:17:17Z",
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 5988
-              }
+                "stars": 5992
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -91,8 +95,9 @@
                 "last_commit": "2026-08-10T20:51:58Z",
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2955
-              }
+                "stars": 2958
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -113,8 +118,9 @@
                 "last_commit": "2026-08-13T13:47:49Z",
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19868
-              }
+                "stars": 19871
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -129,7 +135,8 @@
                 "owner": "virtualabs",
                 "repo": "btlejack",
                 "stars": 2108
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -144,7 +151,8 @@
                 "owner": "nccgroup",
                 "repo": "Sniffle",
                 "stars": 1166
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -166,7 +174,8 @@
                 "owner": "riverloopsec",
                 "repo": "killerbee",
                 "stars": 849
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -181,7 +190,8 @@
                 "owner": "BishopFox",
                 "repo": "zigdiggity",
                 "stars": 298
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -202,8 +212,9 @@
                 "last_commit": "2024-08-28T13:09:25Z",
                 "owner": "newaetech",
                 "repo": "chipshouter-picoemp",
-                "stars": 758
-              }
+                "stars": 759
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -218,7 +229,8 @@
                 "owner": "ZeusWPI",
                 "repo": "pico-glitcher",
                 "stars": 104
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -233,7 +245,8 @@
                 "owner": "SySS-Research",
                 "repo": "icestick-glitcher",
                 "stars": 63
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -254,8 +267,9 @@
                 "last_commit": "2026-08-11T15:27:34Z",
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14278
-              }
+                "stars": 14283
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -269,8 +283,9 @@
                 "last_commit": "2026-05-05T14:02:26Z",
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13222
-              }
+                "stars": 13224
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -284,8 +299,9 @@
                 "last_commit": "2026-08-27T14:54:46Z",
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3616
-              }
+                "stars": 3617
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -295,12 +311,13 @@
               "repo_info": {
                 "archived": false,
                 "id": 374917397,
-                "language": "Python",
-                "last_commit": "2026-08-27T10:57:13Z",
+                "language": null,
+                "last_commit": "2026-08-28T09:22:12Z",
                 "owner": "onekey-sec",
                 "repo": "unblob",
                 "stars": 2544
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -315,7 +332,8 @@
                 "owner": "firmadyne",
                 "repo": "firmadyne",
                 "stars": 2102
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -330,7 +348,8 @@
                 "owner": "rampageX",
                 "repo": "firmware-mod-kit",
                 "stars": 1000
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -344,8 +363,9 @@
                 "last_commit": "2022-12-27T15:37:06Z",
                 "owner": "Telefonica",
                 "repo": "HomePWN",
-                "stars": 931
-              }
+                "stars": 930
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -359,8 +379,9 @@
                 "last_commit": "2026-06-24T15:34:02Z",
                 "owner": "pr0v3rbs",
                 "repo": "FirmAE",
-                "stars": 919
-              }
+                "stars": 920
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -375,7 +396,8 @@
                 "owner": "FirmWire",
                 "repo": "FirmWire",
                 "stars": 878
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -386,11 +408,12 @@
                 "archived": false,
                 "id": 169076171,
                 "language": "C++",
-                "last_commit": "2026-08-27T12:13:23Z",
+                "last_commit": "2026-08-28T18:16:57Z",
                 "owner": "emsec",
                 "repo": "hal",
                 "stars": 821
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -408,11 +431,12 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-27T16:06:41Z",
+                "last_commit": "2026-08-28T09:30:22Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6736
-              }
+                "stars": 6735
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -427,7 +451,8 @@
                 "owner": "jtpereyda",
                 "repo": "boofuzz",
                 "stars": 2354
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -445,11 +470,12 @@
                 "archived": false,
                 "id": 17494082,
                 "language": "Python",
-                "last_commit": "2026-08-26T23:07:42Z",
+                "last_commit": "2026-08-27T19:13:52Z",
                 "owner": "chipsec",
                 "repo": "chipsec",
-                "stars": 3295
-              }
+                "stars": 3296
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -460,11 +486,12 @@
                 "archived": false,
                 "id": 1474948,
                 "language": "C",
-                "last_commit": "2026-08-27T12:47:23Z",
+                "last_commit": "2026-08-28T13:17:23Z",
                 "owner": "flashrom",
                 "repo": "flashrom",
-                "stars": 1170
-              }
+                "stars": 1171
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -479,7 +506,8 @@
                 "owner": "cyphunk",
                 "repo": "JTAGenum",
                 "stars": 799
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             },
             {
               "node_type": "item",
@@ -494,7 +522,8 @@
                 "owner": "ohjeongwook",
                 "repo": "dumpflash",
                 "stars": 321
-              }
+              },
+              "first_seen": "2026-08-28T18:58:53.292Z"
             }
           ],
           "description": null,
@@ -520,7 +549,8 @@
             "owner": "vegantransistor",
             "repo": "BoschSmartHome",
             "stars": 26
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         }
       ],
       "title": "Penetration Test Use-Cases"
@@ -541,7 +571,8 @@
             "owner": "yadox666",
             "repo": "The-Hackers-Hardware-Toolkit",
             "stars": 2175
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         }
       ],
       "title": "Books"
@@ -562,7 +593,8 @@
             "owner": "OWASP",
             "repo": "IoTGoat",
             "stars": 922
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -577,7 +609,8 @@
             "owner": "therealsaumil",
             "repo": "emux",
             "stars": 872
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -592,7 +625,8 @@
             "owner": "praetorian-inc",
             "repo": "DVRF",
             "stars": 722
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -607,7 +641,8 @@
             "owner": "Riscure",
             "repo": "Rhme-2016",
             "stars": 4
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -622,7 +657,8 @@
             "owner": "Riscure",
             "repo": "RHme-2015",
             "stars": 0
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -637,7 +673,8 @@
             "owner": "Riscure",
             "repo": "Rhme-2017",
             "stars": 0
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         }
       ],
       "title": "Practice Targets and CTFs"
@@ -658,7 +695,8 @@
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
             "stars": 3524
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -672,8 +710,9 @@
             "last_commit": "2023-10-17T12:23:20Z",
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2430
-          }
+            "stars": 2431
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -688,7 +727,8 @@
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
             "stars": 2425
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -703,7 +743,8 @@
             "owner": "enovella",
             "repo": "TEE-reversing",
             "stars": 1036
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -718,7 +759,8 @@
             "owner": "engn33r",
             "repo": "awesome-bluetooth-security",
             "stars": 611
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         },
         {
           "node_type": "item",
@@ -733,14 +775,15 @@
             "owner": "fkromer",
             "repo": "awesome-embedded-linux",
             "stars": 428
-          }
+          },
+          "first_seen": "2026-08-28T18:58:53.292Z"
         }
       ],
       "title": "Awesome Lists"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T17:52:47.299Z",
+    "last_updated": "2026-08-28T18:58:53.292Z",
     "original_repository_info": {
       "archived": false,
       "id": 677842136,
@@ -748,7 +791,7 @@
       "last_commit": "2026-03-08T16:55:10Z",
       "owner": "kayranfatih",
       "repo": "awesome-iot-and-hardware-security",
-      "stars": 59
+      "stars": 60
     },
     "original_repository_sha": "75903f0e078d9b8241efdbb1c260907e84de66cd",
     "enhanced_repository": "enhansome/enhansome-iot-and-hardware-security",

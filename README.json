@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-08-29T04:54:02Z",
+                "last_commit": "2026-08-29T12:48:40Z",
                 "open_issues": 76,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 5992,
+                "stars": 5993,
                 "topics": [
                   "125khz",
                   "clone",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19872,
+                "stars": 19878,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -288,7 +288,7 @@
                 "open_issues": 31,
                 "owner": "riverloopsec",
                 "repo": "killerbee",
-                "stars": 849,
+                "stars": 848,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -309,7 +309,7 @@
                 "open_issues": 7,
                 "owner": "BishopFox",
                 "repo": "zigdiggity",
-                "stars": 298,
+                "stars": 297,
                 "topics": [
                   "iot-security",
                   "pentest-tool",
@@ -423,7 +423,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14285,
+                "stars": 14287,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13224,
+                "stars": 13225,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -706,7 +706,7 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-08-28T09:30:22Z",
+                "last_commit": "2026-08-29T11:41:21Z",
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
@@ -806,7 +806,7 @@
                 "open_issues": 80,
                 "owner": "flashrom",
                 "repo": "flashrom",
-                "stars": 1171,
+                "stars": 1170,
                 "topics": [
                   "firmware-tools",
                   "firmware-update",
@@ -943,7 +943,7 @@
             "open_issues": 2,
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 922,
+            "stars": 923,
             "topics": [
               "embedded-linux",
               "firmware",
@@ -1088,7 +1088,7 @@
             "id": 133933655,
             "language": null,
             "license": "CC0-1.0",
-            "last_commit": "2026-08-18T14:04:55Z",
+            "last_commit": "2026-08-29T06:10:09Z",
             "open_issues": 0,
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
@@ -1183,7 +1183,7 @@
             "open_issues": 0,
             "owner": "enovella",
             "repo": "TEE-reversing",
-            "stars": 1036,
+            "stars": 1037,
             "topics": [
               "android",
               "arm-trustzone",
@@ -1259,7 +1259,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T05:05:59.352Z",
+    "last_updated": "2026-08-29T12:49:09.368Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

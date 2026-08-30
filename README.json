@@ -72,7 +72,7 @@
                 "open_issues": 597,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
-                "stars": 6240,
+                "stars": 6242,
                 "topics": [
                   "c-plus-plus",
                   "cybersecurity",
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-08-29T12:48:40Z",
-                "open_issues": 76,
+                "last_commit": "2026-08-30T12:04:59Z",
+                "open_issues": 77,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 5993,
+                "stars": 5995,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 118,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2958,
+                "stars": 2960,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19878,
+                "stars": 19909,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -343,7 +343,7 @@
                 "open_issues": 23,
                 "owner": "newaetech",
                 "repo": "chipshouter-picoemp",
-                "stars": 759,
+                "stars": 760,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -423,7 +423,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14287,
+                "stars": 14290,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -479,7 +479,7 @@
                 "open_issues": 25,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3617,
+                "stars": 3618,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -548,7 +548,7 @@
                 "open_issues": 107,
                 "owner": "firmadyne",
                 "repo": "firmadyne",
-                "stars": 2102,
+                "stars": 2104,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -706,11 +706,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-08-29T11:41:21Z",
+                "last_commit": "2026-08-29T13:37:55Z",
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6737,
+                "stars": 6740,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -747,7 +747,7 @@
                 "open_issues": 101,
                 "owner": "jtpereyda",
                 "repo": "boofuzz",
-                "stars": 2354,
+                "stars": 2355,
                 "topics": [
                   "fuzzing",
                   "python",
@@ -779,7 +779,7 @@
                 "open_issues": 44,
                 "owner": "chipsec",
                 "repo": "chipsec",
-                "stars": 3296,
+                "stars": 3297,
                 "topics": [
                   "firmware",
                   "firmware-security",
@@ -943,7 +943,7 @@
             "open_issues": 2,
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 923,
+            "stars": 925,
             "topics": [
               "embedded-linux",
               "firmware",
@@ -1092,7 +1092,7 @@
             "open_issues": 0,
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3524,
+            "stars": 3525,
             "topics": [
               "automotive-security",
               "awesome",
@@ -1233,7 +1233,7 @@
           "description": null,
           "children": [],
           "repo_info": {
-            "archived": false,
+            "archived": true,
             "description": "A curated list of awesome Embedded Linux resources.",
             "homepage": "https://fkromer.github.io/awesome-embedded-linux/",
             "id": 189845569,
@@ -1259,7 +1259,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T12:49:09.368Z",
+    "last_updated": "2026-08-30T12:10:58.405Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

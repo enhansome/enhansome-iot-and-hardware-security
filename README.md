@@ -62,8 +62,8 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ### RFID and NFC
 
-* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,999 | 🐛 78 | 🌐 C | 📅 2026-08-31 - The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis
-* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,963 | 🐛 118 | 🌐 C | 📅 2026-08-10 - An open-source NFC emulation and research platform for low-frequency and high-frequency RFID work
+* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 6,006 | 🐛 82 | 🌐 C | 📅 2026-09-01 - The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis
+* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,967 | 🐛 118 | 🌐 C | 📅 2026-08-10 - An open-source NFC emulation and research platform for low-frequency and high-frequency RFID work
 * [HydraNFC](https://hydrabus.com/hydranfc-1-0-specifications) - HydraNFC Shield v1.0 is an NFC shield hardware (to be plugged on top of HydraBus) to sniff/read/write/emulate any 13.56MHz NFC tags for anyone interested in advanced NFC Research/Dev/Debug/Hack/PenTest on NFC products
 
 ### Bluetooth and BLE
@@ -101,15 +101,15 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ### Firmware Analysis and Exploit Frameworks
 
-* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,294 | 🐛 93 | 🌐 Rust | 📅 2026-08-11 - Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images
+* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,296 | 🐛 93 | 🌐 Rust | 📅 2026-08-11 - Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images
 * [RouterSploit](https://github.com/threat9/routersploit) ⭐ 13,232 | 🐛 97 | 🌐 Python | 📅 2026-05-05 - The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices
-* [EMBA The security analyzer for firmware of embedded devices](https://github.com/e-m-b-a/emba) ⭐ 3,619 | 🐛 19 | 🌐 Shell | 📅 2026-08-31 - EMBA is designed as the central firmware analysis tool for penetration testers and product security teams. It supports the complete security analysis process starting with firmware extraction, doing static analysis and dynamic analysis via emulation and finally generating a web report
-* [Unblob](https://github.com/onekey-sec/unblob) ⭐ 2,547 | 🐛 36 | 📅 2026-08-31 - Unblob is an accurate, fast, and easy-to-use extraction suite. It parses unknown binary blobs for more than 30 different archive, compression, and file-system formats, extracts their content recursively, and carves out unknown chunks that have not been accounted for
+* [EMBA The security analyzer for firmware of embedded devices](https://github.com/e-m-b-a/emba) ⭐ 3,616 | 🐛 20 | 🌐 Shell | 📅 2026-09-01 - EMBA is designed as the central firmware analysis tool for penetration testers and product security teams. It supports the complete security analysis process starting with firmware extraction, doing static analysis and dynamic analysis via emulation and finally generating a web report
+* [Unblob](https://github.com/onekey-sec/unblob) ⭐ 2,548 | 🐛 38 | 📅 2026-09-01 - Unblob is an accurate, fast, and easy-to-use extraction suite. It parses unknown binary blobs for more than 30 different archive, compression, and file-system formats, extracts their content recursively, and carves out unknown chunks that have not been accounted for
 * [FIRMADYNE](https://github.com/firmadyne/firmadyne) ⭐ 2,104 | 🐛 107 | 🌐 Shell | 📅 2024-07-21 - An automated system for performing emulation and dynamic analysis of Linux-based embedded firmware
 * [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit) ⭐ 1,000 | 🐛 62 | 🌐 C | 📅 2026-02-17 - The Firmware Mod Kit allows for easy deconstruction and reconstruction of firmware images for various embedded devices. While it primarily targets Linux based routers, it should be compatible with most firmware that makes use of common firmware formats and file systems such as TRX/uImage and SquashFS/CramFS
 * [HomePwn - Swiss Army Knife for Pentesting of IoT Devices](https://github.com/Telefonica/HomePWN) ⭐ 930 | 🐛 5 | 🌐 Python | 📅 2022-12-27 - HomePwn is a framework that provides features to audit and pentesting devices that company employees can use in their day-to-day work and inside the same working environment. It is designed to find devices in the home or office, take advantage of certain vulnerabilities to read or send data to those devices
 * [FirmAE](https://github.com/pr0v3rbs/FirmAE) ⭐ 920 | 🐛 49 | 🌐 Python | 📅 2026-06-24 - A scalable firmware emulation framework that improves analysis coverage for Linux-based IoT firmware
-* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 878 | 🐛 17 | 🌐 Python | 📅 2026-08-20 - A full-system baseband firmware emulation platform for dynamic analysis of embedded and mobile firmware
+* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 877 | 🐛 17 | 🌐 Python | 📅 2026-08-20 - A full-system baseband firmware emulation platform for dynamic analysis of embedded and mobile firmware
 * [HAL - The Hardware Analyzer](https://github.com/emsec/hal) ⭐ 822 | 🐛 19 | 🌐 C++ | 📅 2026-08-28 - HAL is a comprehensive netlist reverse engineering and manipulation framework
 * [Panda.re](https://panda.re/) - PANDA is an open-source Platform for Architecture-Neutral Dynamic Analysis. It is built upon the QEMU whole system emulator, and so analyses have access to all code executing in the guest and all data. PANDA adds the ability to record and replay executions, enabling iterative, deep, whole system analyses
 * [The Firmware Analysis and Comparison Tool (FACT)](https://fkie-cad.github.io/FACT_core/) - The Firmware Analysis and Comparison Tool (FACT) is intended to automate firmware security analysis (routers, IoT, UEFI, webcams, drones). It is designed to be easy to use (web UI), extend (plug-in system), and integrate (REST API)
@@ -134,7 +134,7 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ### Misc Tools
 
-* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,297 | 🐛 47 | 🌐 Python | 📅 2026-08-31 - A platform security assessment framework for analyzing the security of PC hardware, firmware, and low-level platform components
+* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,297 | 🐛 48 | 🌐 Python | 📅 2026-08-31 - A platform security assessment framework for analyzing the security of PC hardware, firmware, and low-level platform components
 * [Flashrom](https://github.com/flashrom/flashrom) ⭐ 1,171 | 🐛 80 | 🌐 C | 📅 2026-08-31 - Flashrom is a utility for detecting, reading, writing, verifying and erasing flash chips. It is often used to flash BIOS/EFI/coreboot/firmware images in-system using a supported mainboard, but it also supports flashing of network cards (NICs), SATA controller cards, and other external devices which can program flash chips
 * [JTAGenum](https://github.com/cyphunk/JTAGenum) ⭐ 799 | 🐛 14 | 🌐 C++ | 📅 2023-10-30 - Given an Arduino compatible microcontroller or Raspberry PI (experimental), JTAGenum scans pins for basic JTAG functionality and can be used to enumerate the Instruction Register for undocumented instructions
 * [Dumpflash](https://github.com/ohjeongwook/dumpflash) ⭐ 321 | 🐛 21 | 🌐 Python | 📅 2022-03-17 - Low-level NAND Flash dump and parsing utility
@@ -252,7 +252,7 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 ## Practice Targets and CTFs
 
 * [IoTGoat](https://github.com/OWASP/IoTGoat) ⭐ 926 | 🐛 2 | 🌐 C | 📅 2025-10-05 - A deliberately insecure OpenWrt-based firmware for learning and practicing IoT security testing
-* [EMUX](https://github.com/therealsaumil/emux) ⭐ 871 | 🐛 12 | 🌐 Python | 📅 2025-08-22 - An embedded device emulation framework that is useful for building reproducible firmware-analysis labs
+* [EMUX](https://github.com/therealsaumil/emux) ⭐ 870 | 🐛 12 | 🌐 Python | 📅 2025-08-22 - An embedded device emulation framework that is useful for building reproducible firmware-analysis labs
 * [DVRF: Damn Vulnerable Router Firmware](https://github.com/praetorian-inc/DVRF) ⚠️ Archived - A vulnerable router firmware image built for hands-on embedded web and firmware exploitation practice
 * [RHme-2016](https://github.com/Riscure/Rhme-2016) ⭐ 4 | 🐛 0 | 📅 2024-08-28 - Riscure Hack Me 2 hardware CTF challenge
 * [RHme-2015](https://github.com/Riscure/RHme-2015) ⭐ 0 | 🐛 0 | 📅 2024-08-25 - Riscure Hack Me hardware CTF challenge
@@ -271,8 +271,8 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ## Awesome Lists
 
-* [Awesome Connected Things Security](https://github.com/V33RU/awesome-connected-things-sec) ⭐ 3,527 | 🐛 0 | 📅 2026-08-29 - A curated list of IoT and connected-things security resources
-* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,431 | 🐛 2 | 📅 2023-10-17
+* [Awesome Connected Things Security](https://github.com/V33RU/awesome-connected-things-sec) ⭐ 3,528 | 🐛 0 | 📅 2026-08-29 - A curated list of IoT and connected-things security resources
+* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,432 | 🐛 2 | 📅 2023-10-17
 * [Awesome IoT Hacks](https://github.com/nebgnahz/awesome-iot-hacks) ⭐ 2,425 | 🐛 3 | 📅 2020-05-16
 * [TEE Reversing](https://github.com/enovella/TEE-reversing) ⭐ 1,038 | 🐛 0 | 📅 2026-01-07 - A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices
 * [Awesome Bluetooth Security (BR, EDR, LE, and Mesh)](https://github.com/engn33r/awesome-bluetooth-security) ⭐ 611 | 🐛 0 | 📅 2025-10-03
@@ -280,4 +280,4 @@ Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hard
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-31._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-01._

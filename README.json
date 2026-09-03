@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-02T10:07:45Z",
-                "open_issues": 74,
+                "last_commit": "2026-09-03T07:53:21Z",
+                "open_issues": 71,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6014,
+                "stars": 6016,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 118,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2970,
+                "stars": 2972,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19924,
+                "stars": 19928,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -423,7 +423,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14299,
+                "stars": 14305,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13234,
+                "stars": 13235,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -475,11 +475,11 @@
                 "id": 290152313,
                 "language": "Shell",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-01T13:59:48Z",
-                "open_issues": 20,
+                "last_commit": "2026-09-02T16:52:52Z",
+                "open_issues": 16,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3632,
+                "stars": 3636,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -710,7 +710,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6744,
+                "stars": 6745,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -775,8 +775,8 @@
                 "id": 17494082,
                 "language": "Python",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-02T01:06:12Z",
-                "open_issues": 52,
+                "last_commit": "2026-09-02T20:52:25Z",
+                "open_issues": 50,
                 "owner": "chipsec",
                 "repo": "chipsec",
                 "stars": 3298,
@@ -802,7 +802,7 @@
                 "id": 1474948,
                 "language": "C",
                 "license": "GPL-2.0",
-                "last_commit": "2026-08-31T06:37:24Z",
+                "last_commit": "2026-09-02T15:47:24Z",
                 "open_issues": 80,
                 "owner": "flashrom",
                 "repo": "flashrom",
@@ -1157,7 +1157,7 @@
             "open_issues": 3,
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2425,
+            "stars": 2424,
             "topics": [
               "awesome",
               "hack",
@@ -1259,7 +1259,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-02T11:40:47.488Z",
+    "last_updated": "2026-09-03T11:40:41.913Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",
@@ -1271,7 +1271,7 @@
       "open_issues": 0,
       "owner": "kayranfatih",
       "repo": "awesome-iot-and-hardware-security",
-      "stars": 60,
+      "stars": 61,
       "topics": [
         "awesome",
         "awesome-list",

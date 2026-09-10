@@ -69,10 +69,10 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-08-27T23:02:01Z",
-                "open_issues": 598,
+                "open_issues": 599,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
-                "stars": 6251,
+                "stars": 6254,
                 "topics": [
                   "c-plus-plus",
                   "cybersecurity",
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-09T07:51:41Z",
-                "open_issues": 66,
+                "last_commit": "2026-09-10T08:34:54Z",
+                "open_issues": 57,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6036,
+                "stars": 6045,
                 "topics": [
                   "125khz",
                   "clone",
@@ -149,11 +149,11 @@
                 "id": 581338100,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-07T15:27:27Z",
+                "last_commit": "2026-09-10T06:50:34Z",
                 "open_issues": 119,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2989,
+                "stars": 2993,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19952,
+                "stars": 19956,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -288,7 +288,7 @@
                 "open_issues": 31,
                 "owner": "riverloopsec",
                 "repo": "killerbee",
-                "stars": 848,
+                "stars": 849,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -343,7 +343,7 @@
                 "open_issues": 23,
                 "owner": "newaetech",
                 "repo": "chipshouter-picoemp",
-                "stars": 766,
+                "stars": 767,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -423,7 +423,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14324,
+                "stars": 14328,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -521,7 +521,7 @@
                 "open_issues": 41,
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2551,
+                "stars": 2552,
                 "topics": [
                   "archive",
                   "compression",
@@ -569,7 +569,7 @@
                 "open_issues": 62,
                 "owner": "rampageX",
                 "repo": "firmware-mod-kit",
-                "stars": 1001,
+                "stars": 1000,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -618,7 +618,7 @@
                 "open_issues": 49,
                 "owner": "pr0v3rbs",
                 "repo": "FirmAE",
-                "stars": 925,
+                "stars": 927,
                 "topics": [
                   "analysis",
                   "arbitration",
@@ -670,7 +670,7 @@
                 "id": 169076171,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-09-01T18:37:54Z",
+                "last_commit": "2026-09-10T11:39:00Z",
                 "open_issues": 20,
                 "owner": "emsec",
                 "repo": "hal",
@@ -776,8 +776,8 @@
                 "id": 17494082,
                 "language": "Python",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-02T20:52:25Z",
-                "open_issues": 50,
+                "last_commit": "2026-09-10T01:02:57Z",
+                "open_issues": 51,
                 "owner": "chipsec",
                 "repo": "chipsec",
                 "stars": 3299,
@@ -833,7 +833,7 @@
                 "open_issues": 14,
                 "owner": "cyphunk",
                 "repo": "JTAGenum",
-                "stars": 799,
+                "stars": 801,
                 "topics": [
                   "arduino",
                   "jtag",
@@ -917,7 +917,7 @@
             "open_issues": 5,
             "owner": "yadox666",
             "repo": "The-Hackers-Hardware-Toolkit",
-            "stars": 2175,
+            "stars": 2177,
             "topics": []
           },
           "first_seen": "2026-08-28T18:58:53.292Z"
@@ -1090,7 +1090,7 @@
             "language": null,
             "license": "CC0-1.0",
             "last_commit": "2026-08-29T06:10:09Z",
-            "open_issues": 0,
+            "open_issues": 1,
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
             "stars": 3533,
@@ -1130,7 +1130,7 @@
             "open_issues": 2,
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2439,
+            "stars": 2440,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1184,7 +1184,7 @@
             "open_issues": 0,
             "owner": "enovella",
             "repo": "TEE-reversing",
-            "stars": 1038,
+            "stars": 1039,
             "topics": [
               "android",
               "arm-trustzone",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-09T11:48:25.928Z",
+    "last_updated": "2026-09-10T11:46:19.994Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

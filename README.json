@@ -69,7 +69,7 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-08-27T23:02:01Z",
-                "open_issues": 599,
+                "open_issues": 600,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
                 "stars": 6254,
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-10T08:34:54Z",
+                "last_commit": "2026-09-11T10:38:31Z",
                 "open_issues": 57,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6045,
+                "stars": 6046,
                 "topics": [
                   "125khz",
                   "clone",
@@ -150,10 +150,10 @@
                 "language": "C",
                 "license": "GPL-3.0",
                 "last_commit": "2026-09-10T06:50:34Z",
-                "open_issues": 119,
+                "open_issues": 111,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 2993,
+                "stars": 2996,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19956,
+                "stars": 19965,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -423,7 +423,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14328,
+                "stars": 14331,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13242,
+                "stars": 13240,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -475,11 +475,11 @@
                 "id": 290152313,
                 "language": "Shell",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-09T08:03:12Z",
+                "last_commit": "2026-09-11T11:25:38Z",
                 "open_issues": 13,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3653,
+                "stars": 3655,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -521,7 +521,7 @@
                 "open_issues": 41,
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2552,
+                "stars": 2553,
                 "topics": [
                   "archive",
                   "compression",
@@ -548,7 +548,7 @@
                 "open_issues": 107,
                 "owner": "firmadyne",
                 "repo": "firmadyne",
-                "stars": 2105,
+                "stars": 2106,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -670,8 +670,8 @@
                 "id": 169076171,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-09-10T11:39:00Z",
-                "open_issues": 20,
+                "last_commit": "2026-09-11T08:01:13Z",
+                "open_issues": 19,
                 "owner": "emsec",
                 "repo": "hal",
                 "stars": 827,
@@ -833,7 +833,7 @@
                 "open_issues": 14,
                 "owner": "cyphunk",
                 "repo": "JTAGenum",
-                "stars": 801,
+                "stars": 802,
                 "topics": [
                   "arduino",
                   "jtag",
@@ -1130,7 +1130,7 @@
             "open_issues": 2,
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2440,
+            "stars": 2441,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1212,7 +1212,7 @@
             "open_issues": 0,
             "owner": "engn33r",
             "repo": "awesome-bluetooth-security",
-            "stars": 614,
+            "stars": 615,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T11:46:19.994Z",
+    "last_updated": "2026-09-11T11:45:12.526Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

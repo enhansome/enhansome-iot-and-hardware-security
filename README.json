@@ -69,7 +69,7 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-08-27T23:02:01Z",
-                "open_issues": 604,
+                "open_issues": 605,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
                 "stars": 6262,
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-18T09:27:51Z",
-                "open_issues": 39,
+                "last_commit": "2026-09-18T19:56:30Z",
+                "open_issues": 44,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6073,
+                "stars": 6076,
                 "topics": [
                   "125khz",
                   "clone",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 19993,
+                "stars": 19996,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -235,7 +235,7 @@
                 "open_issues": 28,
                 "owner": "virtualabs",
                 "repo": "btlejack",
-                "stars": 2111,
+                "stars": 2112,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -343,7 +343,7 @@
                 "open_issues": 23,
                 "owner": "newaetech",
                 "repo": "chipshouter-picoemp",
-                "stars": 771,
+                "stars": 772,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -423,7 +423,7 @@
                 "open_issues": 94,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14344,
+                "stars": 14352,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13242,
+                "stars": 13244,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -479,7 +479,7 @@
                 "open_issues": 13,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3666,
+                "stars": 3671,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -521,7 +521,7 @@
                 "open_issues": 40,
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2555,
+                "stars": 2556,
                 "topics": [
                   "archive",
                   "compression",
@@ -674,7 +674,7 @@
                 "open_issues": 18,
                 "owner": "emsec",
                 "repo": "hal",
-                "stars": 829,
+                "stars": 828,
                 "topics": [
                   "embedded-security",
                   "fpga",
@@ -776,8 +776,8 @@
                 "id": 17494082,
                 "language": "Python",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-17T01:02:51Z",
-                "open_issues": 50,
+                "last_commit": "2026-09-18T23:56:47Z",
+                "open_issues": 39,
                 "owner": "chipsec",
                 "repo": "chipsec",
                 "stars": 3300,
@@ -944,7 +944,7 @@
             "open_issues": 2,
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 936,
+            "stars": 937,
             "topics": [
               "embedded-linux",
               "firmware",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-18T11:45:13.262Z",
+    "last_updated": "2026-09-19T11:28:13.996Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

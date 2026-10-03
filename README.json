@@ -108,7 +108,7 @@
                 "language": "C",
                 "license": "GPL-3.0",
                 "last_commit": "2026-10-02T13:05:36Z",
-                "open_issues": 49,
+                "open_issues": 50,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
                 "stars": 6115,
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20052,
+                "stars": 20054,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -444,7 +444,7 @@
                 "open_issues": 98,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13257,
+                "stars": 13258,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -674,7 +674,7 @@
                 "open_issues": 19,
                 "owner": "emsec",
                 "repo": "hal",
-                "stars": 831,
+                "stars": 832,
                 "topics": [
                   "embedded-security",
                   "fpga",
@@ -711,7 +711,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6778,
+                "stars": 6779,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -1130,7 +1130,7 @@
             "open_issues": 1,
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2460,
+            "stars": 2461,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1158,7 +1158,7 @@
             "open_issues": 3,
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2429,
+            "stars": 2428,
             "topics": [
               "awesome",
               "hack",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:50:19.094Z",
+    "last_updated": "2026-10-03T11:58:15.166Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

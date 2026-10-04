@@ -68,11 +68,11 @@
                 "id": 3030065,
                 "language": "C++",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-02T20:17:44Z",
-                "open_issues": 607,
+                "last_commit": "2026-10-04T09:39:52Z",
+                "open_issues": 606,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
-                "stars": 6276,
+                "stars": 6278,
                 "topics": [
                   "c-plus-plus",
                   "cybersecurity",
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-02T13:05:36Z",
-                "open_issues": 50,
+                "last_commit": "2026-10-04T12:43:23Z",
+                "open_issues": 46,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6115,
+                "stars": 6117,
                 "topics": [
                   "125khz",
                   "clone",
@@ -149,11 +149,11 @@
                 "id": 581338100,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-02T17:36:50Z",
-                "open_issues": 122,
+                "last_commit": "2026-10-04T08:48:33Z",
+                "open_issues": 119,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 3062,
+                "stars": 3066,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20054,
+                "stars": 20093,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -309,7 +309,7 @@
                 "open_issues": 7,
                 "owner": "BishopFox",
                 "repo": "zigdiggity",
-                "stars": 298,
+                "stars": 299,
                 "topics": [
                   "iot-security",
                   "pentest-tool",
@@ -423,7 +423,7 @@
                 "open_issues": 98,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14390,
+                "stars": 14392,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 98,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13258,
+                "stars": 13259,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -518,7 +518,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-01T08:03:45Z",
-                "open_issues": 38,
+                "open_issues": 39,
                 "owner": "onekey-sec",
                 "repo": "unblob",
                 "stars": 2563,
@@ -711,7 +711,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6779,
+                "stars": 6780,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -803,7 +803,7 @@
                 "id": 1474948,
                 "language": "C",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-02T14:03:23Z",
+                "last_commit": "2026-10-03T22:43:22Z",
                 "open_issues": 80,
                 "owner": "flashrom",
                 "repo": "flashrom",
@@ -944,7 +944,7 @@
             "open_issues": 2,
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 940,
+            "stars": 942,
             "topics": [
               "embedded-linux",
               "firmware",
@@ -974,7 +974,7 @@
             "open_issues": 12,
             "owner": "therealsaumil",
             "repo": "emux",
-            "stars": 876,
+            "stars": 877,
             "topics": [
               "arm",
               "emulation",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T11:58:15.166Z",
+    "last_updated": "2026-10-04T12:49:08.495Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

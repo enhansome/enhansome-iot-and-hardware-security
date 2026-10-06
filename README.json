@@ -68,7 +68,7 @@
                 "id": 3030065,
                 "language": "C++",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-05T21:44:11Z",
+                "last_commit": "2026-10-06T12:44:11Z",
                 "open_issues": 606,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-04T12:43:23Z",
-                "open_issues": 48,
+                "last_commit": "2026-10-06T12:57:09Z",
+                "open_issues": 47,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6122,
+                "stars": 6123,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 118,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 3071,
+                "stars": 3073,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20102,
+                "stars": 20104,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -256,7 +256,7 @@
                 "open_issues": 31,
                 "owner": "nccgroup",
                 "repo": "Sniffle",
-                "stars": 1185,
+                "stars": 1186,
                 "topics": [
                   "ble",
                   "bluetooth",
@@ -288,7 +288,7 @@
                 "open_issues": 31,
                 "owner": "riverloopsec",
                 "repo": "killerbee",
-                "stars": 851,
+                "stars": 852,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 98,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13256,
+                "stars": 13257,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -479,7 +479,7 @@
                 "open_issues": 19,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3689,
+                "stars": 3690,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -521,7 +521,7 @@
                 "open_issues": 38,
                 "owner": "onekey-sec",
                 "repo": "unblob",
-                "stars": 2563,
+                "stars": 2564,
                 "topics": [
                   "archive",
                   "compression",
@@ -645,7 +645,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 888,
+                "stars": 887,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T10:44:10.702Z",
+    "last_updated": "2026-10-06T13:34:13.079Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

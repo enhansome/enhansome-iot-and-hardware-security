@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "grandideastudio",
                 "repo": "jtagulator",
-                "stars": 809,
+                "stars": 810,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -69,7 +69,7 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-10-08T18:03:20Z",
-                "open_issues": 610,
+                "open_issues": 615,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
                 "stars": 6287,
@@ -108,10 +108,10 @@
                 "language": "C",
                 "license": "GPL-3.0",
                 "last_commit": "2026-10-06T12:57:09Z",
-                "open_issues": 49,
+                "open_issues": 51,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6136,
+                "stars": 6137,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 122,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 3087,
+                "stars": 3090,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20121,
+                "stars": 20126,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -235,7 +235,7 @@
                 "open_issues": 28,
                 "owner": "virtualabs",
                 "repo": "btlejack",
-                "stars": 2117,
+                "stars": 2118,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -256,7 +256,7 @@
                 "open_issues": 31,
                 "owner": "nccgroup",
                 "repo": "Sniffle",
-                "stars": 1187,
+                "stars": 1189,
                 "topics": [
                   "ble",
                   "bluetooth",
@@ -423,7 +423,7 @@
                 "open_issues": 99,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14428,
+                "stars": 14437,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -711,7 +711,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6786,
+                "stars": 6790,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -833,7 +833,7 @@
                 "open_issues": 14,
                 "owner": "cyphunk",
                 "repo": "JTAGenum",
-                "stars": 801,
+                "stars": 802,
                 "topics": [
                   "arduino",
                   "jtag",
@@ -1212,7 +1212,7 @@
             "open_issues": 0,
             "owner": "engn33r",
             "repo": "awesome-bluetooth-security",
-            "stars": 617,
+            "stars": 618,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T12:59:55.042Z",
+    "last_updated": "2026-10-11T13:27:06.890Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

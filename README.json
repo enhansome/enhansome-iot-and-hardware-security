@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "grandideastudio",
                 "repo": "jtagulator",
-                "stars": 810,
+                "stars": 811,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -69,7 +69,7 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-10-08T18:03:20Z",
-                "open_issues": 617,
+                "open_issues": 616,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
                 "stars": 6288,
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-06T12:57:09Z",
-                "open_issues": 53,
+                "last_commit": "2026-10-13T12:12:36Z",
+                "open_issues": 50,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6142,
+                "stars": 6140,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 122,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 3092,
+                "stars": 3099,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20139,
+                "stars": 20140,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -420,10 +420,10 @@
                 "language": "Rust",
                 "license": "MIT",
                 "last_commit": "2026-08-11T15:27:34Z",
-                "open_issues": 99,
+                "open_issues": 100,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14448,
+                "stars": 14462,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13253,
+                "stars": 13257,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -479,7 +479,7 @@
                 "open_issues": 18,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3700,
+                "stars": 3703,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -517,8 +517,8 @@
                 "id": 374917397,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-12T15:51:19Z",
-                "open_issues": 41,
+                "last_commit": "2026-10-13T08:16:46Z",
+                "open_issues": 40,
                 "owner": "onekey-sec",
                 "repo": "unblob",
                 "stars": 2572,
@@ -590,7 +590,7 @@
                 "open_issues": 48,
                 "owner": "pr0v3rbs",
                 "repo": "FirmAE",
-                "stars": 947,
+                "stars": 948,
                 "topics": [
                   "analysis",
                   "arbitration",
@@ -670,11 +670,11 @@
                 "id": 169076171,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-10-12T03:27:27Z",
+                "last_commit": "2026-10-13T12:27:27Z",
                 "open_issues": 19,
                 "owner": "emsec",
                 "repo": "hal",
-                "stars": 835,
+                "stars": 836,
                 "topics": [
                   "embedded-security",
                   "fpga",
@@ -711,7 +711,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6792,
+                "stars": 6796,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -777,10 +777,10 @@
                 "language": "Python",
                 "license": "GPL-2.0",
                 "last_commit": "2026-10-12T02:53:15Z",
-                "open_issues": 46,
+                "open_issues": 41,
                 "owner": "chipsec",
                 "repo": "chipsec",
-                "stars": 3316,
+                "stars": 3318,
                 "topics": [
                   "firmware",
                   "firmware-security",
@@ -803,11 +803,11 @@
                 "id": 1474948,
                 "language": "C",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-12T02:43:21Z",
+                "last_commit": "2026-10-12T18:57:25Z",
                 "open_issues": 80,
                 "owner": "flashrom",
                 "repo": "flashrom",
-                "stars": 1183,
+                "stars": 1184,
                 "topics": [
                   "firmware-tools",
                   "firmware-update",
@@ -944,7 +944,7 @@
             "open_issues": 2,
             "owner": "OWASP",
             "repo": "IoTGoat",
-            "stars": 947,
+            "stars": 949,
             "topics": [
               "embedded-linux",
               "firmware",
@@ -974,7 +974,7 @@
             "open_issues": 12,
             "owner": "therealsaumil",
             "repo": "emux",
-            "stars": 877,
+            "stars": 876,
             "topics": [
               "arm",
               "emulation",
@@ -1158,7 +1158,7 @@
             "open_issues": 3,
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2431,
+            "stars": 2432,
             "topics": [
               "awesome",
               "hack",
@@ -1184,7 +1184,7 @@
             "open_issues": 0,
             "owner": "enovella",
             "repo": "TEE-reversing",
-            "stars": 1041,
+            "stars": 1042,
             "topics": [
               "android",
               "arm-trustzone",
@@ -1244,7 +1244,7 @@
             "open_issues": 0,
             "owner": "fkromer",
             "repo": "awesome-embedded-linux",
-            "stars": 430,
+            "stars": 429,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-12T16:01:52.013Z",
+    "last_updated": "2026-10-13T14:31:54.009Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

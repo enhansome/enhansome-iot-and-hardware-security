@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "grandideastudio",
                 "repo": "jtagulator",
-                "stars": 811,
+                "stars": 812,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -72,7 +72,7 @@
                 "open_issues": 616,
                 "owner": "gnuradio",
                 "repo": "gnuradio",
-                "stars": 6288,
+                "stars": 6292,
                 "topics": [
                   "c-plus-plus",
                   "cybersecurity",
@@ -107,11 +107,11 @@
                 "id": 144465372,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-13T12:12:36Z",
-                "open_issues": 50,
+                "last_commit": "2026-10-14T02:52:16Z",
+                "open_issues": 47,
                 "owner": "RfidResearchGroup",
                 "repo": "proxmark3",
-                "stars": 6140,
+                "stars": 6145,
                 "topics": [
                   "125khz",
                   "clone",
@@ -153,7 +153,7 @@
                 "open_issues": 122,
                 "owner": "RfidResearchGroup",
                 "repo": "ChameleonUltra",
-                "stars": 3099,
+                "stars": 3102,
                 "topics": [
                   "125khz",
                   "chameleon",
@@ -193,7 +193,7 @@
                 "open_issues": 44,
                 "owner": "bettercap",
                 "repo": "bettercap",
-                "stars": 20140,
+                "stars": 20145,
                 "topics": [
                   "ble",
                   "deauthentication-attack",
@@ -235,7 +235,7 @@
                 "open_issues": 28,
                 "owner": "virtualabs",
                 "repo": "btlejack",
-                "stars": 2118,
+                "stars": 2119,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -256,7 +256,7 @@
                 "open_issues": 31,
                 "owner": "nccgroup",
                 "repo": "Sniffle",
-                "stars": 1189,
+                "stars": 1190,
                 "topics": [
                   "ble",
                   "bluetooth",
@@ -309,7 +309,7 @@
                 "open_issues": 7,
                 "owner": "BishopFox",
                 "repo": "zigdiggity",
-                "stars": 299,
+                "stars": 298,
                 "topics": [
                   "iot-security",
                   "pentest-tool",
@@ -423,7 +423,7 @@
                 "open_issues": 100,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14462,
+                "stars": 14473,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -444,7 +444,7 @@
                 "open_issues": 97,
                 "owner": "threat9",
                 "repo": "routersploit",
-                "stars": 13257,
+                "stars": 13258,
                 "topics": [
                   "bruteforce",
                   "creds",
@@ -479,7 +479,7 @@
                 "open_issues": 18,
                 "owner": "e-m-b-a",
                 "repo": "emba",
-                "stars": 3703,
+                "stars": 3708,
                 "topics": [
                   "artificial-intelligence",
                   "binary-analysis",
@@ -517,8 +517,8 @@
                 "id": 374917397,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-13T08:16:46Z",
-                "open_issues": 40,
+                "last_commit": "2026-10-14T10:43:20Z",
+                "open_issues": 41,
                 "owner": "onekey-sec",
                 "repo": "unblob",
                 "stars": 2572,
@@ -548,7 +548,7 @@
                 "open_issues": 107,
                 "owner": "firmadyne",
                 "repo": "firmadyne",
-                "stars": 2113,
+                "stars": 2114,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -569,7 +569,7 @@
                 "open_issues": 62,
                 "owner": "rampageX",
                 "repo": "firmware-mod-kit",
-                "stars": 1001,
+                "stars": 1003,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -645,7 +645,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 888,
+                "stars": 889,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -711,7 +711,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6796,
+                "stars": 6801,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -777,10 +777,10 @@
                 "language": "Python",
                 "license": "GPL-2.0",
                 "last_commit": "2026-10-12T02:53:15Z",
-                "open_issues": 41,
+                "open_issues": 43,
                 "owner": "chipsec",
                 "repo": "chipsec",
-                "stars": 3318,
+                "stars": 3319,
                 "topics": [
                   "firmware",
                   "firmware-security",
@@ -803,11 +803,11 @@
                 "id": 1474948,
                 "language": "C",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-12T18:57:25Z",
+                "last_commit": "2026-10-14T11:47:24Z",
                 "open_issues": 80,
                 "owner": "flashrom",
                 "repo": "flashrom",
-                "stars": 1184,
+                "stars": 1185,
                 "topics": [
                   "firmware-tools",
                   "firmware-update",
@@ -833,7 +833,7 @@
                 "open_issues": 14,
                 "owner": "cyphunk",
                 "repo": "JTAGenum",
-                "stars": 802,
+                "stars": 803,
                 "topics": [
                   "arduino",
                   "jtag",
@@ -858,7 +858,7 @@
                 "open_issues": 21,
                 "owner": "ohjeongwook",
                 "repo": "dumpflash",
-                "stars": 320,
+                "stars": 321,
                 "topics": []
               },
               "first_seen": "2026-08-28T18:58:53.292Z"
@@ -917,7 +917,7 @@
             "open_issues": 5,
             "owner": "yadox666",
             "repo": "The-Hackers-Hardware-Toolkit",
-            "stars": 2179,
+            "stars": 2180,
             "topics": []
           },
           "first_seen": "2026-08-28T18:58:53.292Z"
@@ -1093,7 +1093,7 @@
             "open_issues": 3,
             "owner": "V33RU",
             "repo": "awesome-connected-things-sec",
-            "stars": 3557,
+            "stars": 3559,
             "topics": [
               "automotive-security",
               "awesome",
@@ -1130,7 +1130,7 @@
             "open_issues": 1,
             "owner": "fkie-cad",
             "repo": "awesome-embedded-and-iot-security",
-            "stars": 2467,
+            "stars": 2472,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1158,7 +1158,7 @@
             "open_issues": 3,
             "owner": "nebgnahz",
             "repo": "awesome-iot-hacks",
-            "stars": 2432,
+            "stars": 2433,
             "topics": [
               "awesome",
               "hack",
@@ -1260,7 +1260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-13T14:31:54.009Z",
+    "last_updated": "2026-10-14T12:18:33.435Z",
     "original_repository_info": {
       "archived": false,
       "description": "A collection of awesome tools, books, resources, software, documents and cool stuff about IoT and HW security.",

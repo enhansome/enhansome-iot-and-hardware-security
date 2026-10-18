@@ -1,283 +1,411 @@
 # Awesome IoT and Hardware Security with stars
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
 A collection of awesome tools, books, resources, software, documents and cool stuff about Internet of Things (IoT) and Hardware Security.
 
-Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hardware-security/graphs/contributors). The goal is to build community-driven collection of  well-known resources.
+Thanks to all [contributors](https://github.com/kayranfatih/awesome-iot-and-hardware-security/graphs/contributors). The goal is to build community-driven collection of well-known resources.
 
 ## Contents
 
-* [**Testing Tools**](#Testing-Tools)
-  * [Debugging Tools](#Debugging-Tools)
-  * [Logic Analyzer and Oscilloscope](#Logic-Analyzer-and-Oscilloscope)
-  * [SDR](#SDR)
-  * [RFID and NFC](#RFID-and-NFC)
-  * [Bluetooth and BLE](#Bluetooth-and-BLE)
-  * [MQTT](#MQTT)
-  * [Zigbee](#Zigbee)
-  * [Fault Injection - Glitching and Side Channel Analysis](#Fault-Injection---Glitching-and-Side-Channel-Analysis)
-  * [Firmware Analysis and Exploit Frameworks](#Firmware-Analysis-and-Exploit-Frameworks)
-  * [Reverse Engineering](#Reverse-Engineering)
-  * [Fuzzing](#Fuzzing)
-  * [Misc Tools](#Misc-Tools)
-* [**Penetration Test Use-Cases**](#Penetration-Test-Use-Cases)
-* [**Standards and Regulations**](#Standards-and-Regulations)
-* [**Books**](#Books)
-* [**Useful Websites**](#Useful-Websites)
-* [**Youtube Channels**](#Youtube-Channels)
-* [**Twitter Accounts**](#Twitter-Accounts)
-* [**Blogs**](#Blogs)
-* [**Trainings**](#Trainings)
-* [**Practice Targets and CTFs**](#Practice-Targets-and-CTFs)
-* [**Conferences**](#Conferences)
-* [**Awesome Lists**](#Awesome-Lists)
+* [**Testing Tools**](#testing-tools)
+  * [Debugging Tools](#debugging-tools)
+  * [Logic Analyzer and Oscilloscope](#logic-analyzer-and-oscilloscope)
+  * [SDR](#sdr)
+  * [RFID and NFC](#rfid-and-nfc)
+  * [Bluetooth and BLE](#bluetooth-and-ble)
+  * [Wi-Fi](#wi-fi)
+  * [Zigbee](#zigbee)
+  * [LoRaWAN, Thread and Cellular](#lorawan-thread-and-cellular)
+  * [MQTT](#mqtt)
+  * [USB](#usb)
+  * [Automotive and CAN Bus](#automotive-and-can-bus)
+  * [Fault Injection - Glitching and Side Channel Analysis](#fault-injection---glitching-and-side-channel-analysis)
+  * [Firmware Analysis and Exploit Frameworks](#firmware-analysis-and-exploit-frameworks)
+  * [Reverse Engineering](#reverse-engineering)
+  * [Silicon Reverse Engineering](#silicon-reverse-engineering)
+  * [Fuzzing](#fuzzing)
+  * [Misc Tools](#misc-tools)
+* [**Penetration Test Use-Cases**](#penetration-test-use-cases)
+* [**Standards and Regulations**](#standards-and-regulations)
+* [**Books**](#books)
+* [**Useful Websites**](#useful-websites)
+* [**YouTube Channels**](#youtube-channels)
+* [**Twitter Accounts**](#twitter-accounts)
+* [**Blogs**](#blogs)
+* [**Trainings**](#trainings)
+* [**Practice Targets and CTFs**](#practice-targets-and-ctfs)
+* [**Conferences**](#conferences)
+* [**Awesome Lists**](#awesome-lists)
 
 ## Testing Tools
 
 ### Debugging Tools
 
-* [JTAGulator](https://github.com/grandideastudio/jtagulator) ⭐ 814 | 🐛 3 | 🌐 Propeller Spin | 📅 2026-09-02 - An open-source hardware tool that helps identify JTAG and UART interfaces on unknown targets
-* [GreatFET](https://github.com/greatscottgadgets/greatfet) ⭐ 354 | 🐛 71 | 🌐 C | 📅 2026-08-21 - An open-source hardware hacking tool for interfacing with and instrumenting embedded devices over USB
-* [Buspirate](https://www.sparkfun.com/bus-pirate-v3-6a.html) - The Bus Pirate is a troubleshooting tool that communicates between a PC and any embedded device over 1-wire, 2-wire, 3-wire, UART, I2C, SPI, and HD44780 LCD protocols - all at voltages from 0-5.5VDC
-* [SEGGER J-Link Debug Probes](https://www.segger.com/products/debug-probes/j-link/) - SEGGER J-Links are the most widely used line of debug probes on the market. They have provided solid value to embedded development for over a decade. Unparalleled performance, an extensive feature set, many supported CPUs and compatibility with popular environments all make J-Link an unbeatable choice
-* [Flipper Zero](https://flipper.net/) - Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body. It loves hacking digital stuff, such as radio protocols, access control systems, hardware, and more. It's fully open-source and customizable, so you can extend it in whatever way you like
-* [FTDI FT2232H](https://www.ftdichip.com/old2020/Products/ICs/FT2232H.html) - The FT2232H is FTDI's 5th generation of USB devices. The FT2232H is a USB 2.0 Hi-Speed (480Mb/s) to UART/FIFO IC. It can be configured in a variety of industry standard serial or parallel interfaces. The FT2232H has two multi-protocol synchronous serial engines (MPSSEs) which allow communication using JTAG, I2C and SPI on two channels simultaneously
-* [Tigard](https://www.crowdsupply.com/securinghw/tigard) - An open source FT2232H-based, multi-protocol, multi-voltage tool for hardware hacking
-* [Hak5 Packet Squirrel](https://shop.hak5.org/products/packet-squirrel-mark-ii) - Ethernet Tap for capturing device traffic
-* [OpenOCD: Open On-Chip Debugger](https://openocd.org/) - OpenOCD, the Open On-Chip Debugger has been created by Dominic Rath as part of a diploma thesis at the University of Applied Sciences, FH-Augsburg
-* [Glasgow Interface Explorer](https://glasgow-embedded.org/latest/intro.html) - A digital interface multitool for interacting with, analyzing, and bridging a wide range of low-speed serial interfaces used in embedded systems
+* [JTAGulator](https://github.com/grandideastudio/jtagulator) ⭐ 816 | 🐛 3 | 🌐 Propeller Spin | 📅 2026-09-02 - Open-source hardware tool that helps identify JTAG and UART interfaces on unknown targets.
+* [GreatFET](https://github.com/greatscottgadgets/greatfet) ⭐ 354 | 🐛 71 | 🌐 C | 📅 2026-08-21 - Open-source hardware hacking tool for interfacing with and instrumenting embedded devices over USB.
+* [Bus Pirate](https://buspirate.com/) - Open-source multi-protocol tool for talking to chips over 1-Wire, I2C, SPI, UART, and other buses from a serial terminal.
+* [SEGGER J-Link Debug Probes](https://www.segger.com/products/debug-probes/j-link/) - Widely used commercial JTAG/SWD debug probes with broad CPU and IDE support.
+* [Flipper Zero](https://flipper.net/) - Portable, open-source multi-tool for sub-GHz radio, RFID, NFC, infrared, and GPIO hardware hacking.
+* [FTDI FT2232H](https://www.ftdichip.com/old2020/Products/ICs/FT2232H.html) - USB 2.0 Hi-Speed dual-channel chip whose MPSSE engines can drive JTAG, SPI, and I2C; the basis of many hardware hacking adapters.
+* [Tigard](https://www.crowdsupply.com/securinghw/tigard) - Open-source FT2232H-based, multi-protocol, multi-voltage tool for hardware hacking.
+* [OpenOCD: Open On-Chip Debugger](https://openocd.org/) - Open-source JTAG/SWD debugger and in-system programmer supporting a wide range of targets and probes.
+* [Glasgow Interface Explorer](https://glasgow-embedded.org/en/intro.html) - Digital interface multitool for interacting with, analyzing, and bridging a wide range of low-speed interfaces used in embedded systems.
+* [Black Magic Probe](https://black-magic.org/) - JTAG/SWD debug probe with a built-in GDB server, so no OpenOCD is needed.
+* [Raspberry Pi Debug Probe](https://www.raspberrypi.com/products/debug-probe/) - Low-cost RP2040-based CMSIS-DAP probe with SWD and UART.
+* [probe-rs](https://probe.rs/) - Rust-based toolkit for flashing and debugging embedded targets with CMSIS-DAP, ST-Link, J-Link, and other probes.
+* [pyOCD](https://pyocd.io/) - Python-based debugger and programmer for Arm Cortex-M microcontrollers.
+* [HydraBus](https://hydrabus.com/) - Open-source STM32-based multi-tool for hardware hacking, debugging, and protocol bridging.
+* [PCBite](https://sensepeek.com/) - Hands-free probe and PCB holder system for measuring and tapping signals on small boards.
 
 ### Logic Analyzer and Oscilloscope
 
-* [Saleae Logic Analyzer](https://www.saleae.com/) - Effortlessly decode protocols like SPI, I2C, Serial, and many more. Leverage community created analyzers or build your own low-level or high-level protocol analyzer
-* [Pico Oscilloscope](https://www.picotech.com/products/oscilloscope) - PC Oscilloscopes: the modern alternative to the traditional benchtop oscilloscope
+* [Saleae Logic Analyzer](https://www.saleae.com/) - USB logic analyzers with decoders for SPI, I2C, serial, and many other protocols, plus support for custom analyzers.
+* [Pico Oscilloscope](https://www.picotech.com/products/oscilloscope) - PC-based oscilloscopes, a compact alternative to traditional benchtop scopes.
+* [sigrok](https://sigrok.org/wiki/Main_Page) - Open-source signal analysis suite, including the PulseView GUI, that supports many low-cost logic analyzers and protocol decoders.
+* [DSLogic](https://www.dreamsourcelab.com/) - USB logic analyzers from DreamSourceLab with the open-source DSView software.
 
 ### SDR
 
-* [GNURadio](https://github.com/gnuradio/gnuradio) ⭐ 6,297 | 🐛 594 | 🌐 C++ | 📅 2026-10-16 - GNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment
-* [RTL-SDR](https://www.rtl-sdr.com/) - The RTL-SDR is an ultra cheap software defined radio based on DVB-T TV tuners with RTL2832U chips. The RTL-SDR can be used as a wide band radio scanner. It may interest ham radio enthusiasts, hardware hackers, tinkerers and anyone interested in RF
-* [HackRF One](https://greatscottgadgets.com/hackrf/one/) - HackRF One from Great Scott Gadgets is a Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz. Designed to enable test and development of modern and next generation radio technologies, HackRF One is an open source hardware platform that can be used as a USB peripheral or programmed for stand-alone operation
-* [BladeRF](https://www.nuand.com/bladerf-1/) - bladeRF is a Software Defined Radio (SDR) platform designed to enable a community of hobbyists, and professionals to explore and experiment with the multidisciplinary facets of RF communication
+* [rtl\_433](https://github.com/merbanan/rtl_433) ⭐ 7,886 | 🐛 107 | 🌐 C | 📅 2026-10-11 - Decoder for 433/868/315/915 MHz ISM band devices such as sensors, remotes, and meters.
+* [GNURadio](https://github.com/gnuradio/gnuradio) ⭐ 6,301 | 🐛 594 | 🌐 C++ | 📅 2026-10-16 - Free and open-source toolkit of signal processing blocks for building software-defined radios, with or without RF hardware.
+* [PortaPack Mayhem](https://github.com/portapack-mayhem/mayhem-firmware) ⭐ 5,487 | 🐛 156 | 🌐 C | 📅 2026-10-15 - Feature-rich firmware for the HackRF One with PortaPack for standalone RF analysis.
+* [inspectrum](https://github.com/miek/inspectrum) ⭐ 2,531 | 🐛 61 | 🌐 C++ | 📅 2025-12-06 - Tool for visualizing and analyzing captured radio signals.
+* [RTL-SDR](https://www.rtl-sdr.com/) - Ultra-cheap SDR based on RTL2832U DVB-T dongles, usable as a wideband radio scanner.
+* [HackRF One](https://greatscottgadgets.com/hackrf/one/) - Open-source SDR peripheral from Great Scott Gadgets that can transmit and receive from 1 MHz to 6 GHz.
+* [BladeRF](https://www.nuand.com/bladerf-1/) - Full-duplex SDR platform from Nuand for RF experimentation and development.
+* [SDR++](https://www.sdrpp.org/) - Cross-platform, lightweight SDR receiver software.
+* [YARD Stick One](https://greatscottgadgets.com/yardstickone/) - Sub-1 GHz wireless transceiver controlled by RfCat for analyzing and transmitting digital radio protocols.
+* [Signal Identification Wiki](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) - Reference database for identifying radio signals by frequency, modulation, and waterfall appearance.
 
 ### RFID and NFC
 
-* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 6,148 | 🐛 44 | 🌐 C | 📅 2026-10-17 - The Proxmark is an RFID swiss-army tool, allowing for both high and low level interactions with the vast majority of RFID tags and systems world-wide. Originally built by Jonathan Westhues over 10 years ago, the device has progressively evolved into the industry standard tool for RFID analysis
-* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 3,113 | 🐛 122 | 🌐 C | 📅 2026-10-07 - An open-source NFC emulation and research platform for low-frequency and high-frequency RFID work
-* [HydraNFC](https://hydrabus.com/hydranfc-1-0-specifications) - HydraNFC Shield v1.0 is an NFC shield hardware (to be plugged on top of HydraBus) to sniff/read/write/emulate any 13.56MHz NFC tags for anyone interested in advanced NFC Research/Dev/Debug/Hack/PenTest on NFC products
+* [MIFARE Classic Tool](https://github.com/ikarus23/MifareClassicTool) ⭐ 6,470 | 🐛 34 | 🌐 Java | 📅 2026-10-11 - Android app for reading, writing, analyzing, and cloning MIFARE Classic tags.
+* [Proxmark Platform](https://github.com/RfidResearchGroup/proxmark3) ⭐ 6,153 | 🐛 44 | 🌐 C | 📅 2026-10-18 - RFID swiss-army tool for low- and high-level interaction with the vast majority of RFID tags and systems, and the de facto standard for RFID analysis.
+* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 3,115 | 🐛 123 | 🌐 C | 📅 2026-10-07 - Open-source NFC emulation and research platform for low-frequency and high-frequency RFID work.
+* [libnfc](https://github.com/nfc-tools/libnfc) ⭐ 1,996 | 🐛 120 | 🌐 C | 📅 2025-03-05 - Platform-independent NFC library and tools for working with readers and tags.
+* [HydraNFC](https://hydrabus.com/hydranfc-1-0-specifications) - NFC shield for HydraBus to sniff, read, write, and emulate 13.56 MHz NFC tags.
 
 ### Bluetooth and BLE
 
-* [bettercap](https://github.com/bettercap/bettercap) ⭐ 20,150 | 🐛 44 | 🌐 Go | 📅 2026-08-13 - bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energy devices, wireless HID devices and Ethernet networks
-* [Btlejack](https://github.com/virtualabs/btlejack) ⭐ 2,118 | 🐛 28 | 🌐 Python | 📅 2024-08-04 - Btlejack provides everything you need to sniff, jam and hijack Bluetooth Low Energy devices
-* [Sniffle](https://github.com/nccgroup/Sniffle) ⭐ 1,192 | 🐛 31 | 🌐 Python | 📅 2025-09-25 - A sniffer for Bluetooth 5 and 4.x (LE) using TI CC1352/CC26x2 hardware
-* [Ubertooth One](https://greatscottgadgets.com/ubertoothone/) - Ubertooth One is an open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation
-* [nRF51 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF51-DK) - Bluetooth Low Energy development kit for the nRF51 Series
-* [ESP32](https://www.espressif.com/en/products/socs/esp32) - A feature-rich MCU with integrated Wi-Fi and Bluetooth connectivity for a wide-range of applications
+* [bettercap](https://github.com/bettercap/bettercap) ⭐ 20,156 | 🐛 44 | 🌐 Go | 📅 2026-08-13 - Extensible Go framework for reconnaissance and attacks on Wi-Fi networks, BLE devices, wireless HID devices, and Ethernet networks.
+* [Btlejack](https://github.com/virtualabs/btlejack) ⭐ 2,118 | 🐛 28 | 🌐 Python | 📅 2024-08-04 - Sniff, jam, and hijack Bluetooth Low Energy connections with low-cost nRF51 hardware such as the BBC micro:bit.
+* [Sniffle](https://github.com/nccgroup/Sniffle) ⭐ 1,191 | 🐛 31 | 🌐 Python | 📅 2025-09-25 - Sniffer for Bluetooth 5 and 4.x LE using TI CC1352/CC26x2 hardware.
+* [InternalBlue](https://github.com/seemoo-lab/internalblue) ⭐ 792 | 🐛 20 | 🌐 Python | 📅 2024-08-21 - Bluetooth experimentation framework for Broadcom and Cypress chips that enables low-level firmware analysis and patching.
+* [WHAD](https://github.com/whad-team/whad-client) ⭐ 341 | 🐛 73 | 🌐 Python | 📅 2026-10-16 - Wireless Hacking Devices framework providing a common protocol and tools for BLE, Zigbee, ESB, and other radios.
+* [Mirage](https://github.com/RCayre/mirage) ⭐ 321 | 🐛 21 | 🌐 Python | 📅 2025-04-13 - Python framework for auditing wireless protocols such as BLE, Zigbee, Enhanced ShockBurst, and infrared.
+* [Ubertooth One](https://greatscottgadgets.com/ubertoothone/) - Open-source 2.4 GHz wireless development platform for Bluetooth experimentation.
+* [nRF51 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF51-DK) - Bluetooth Low Energy development kit for the nRF51 series.
+* [ESP32](https://www.espressif.com/en/products/socs/esp32) - Wi-Fi and Bluetooth MCU found in many IoT products and useful as a low-cost research platform.
+* [nRF Sniffer for Bluetooth LE](https://www.nordicsemi.com/Products/Development-tools/nRF-Sniffer-for-Bluetooth-LE) - Nordic's sniffer firmware and Wireshark plugin for capturing BLE traffic with nRF52 hardware.
 
-### MQTT
+### Wi-Fi
 
-* [Nmap MQTT Library](https://nmap.org/nsedoc/lib/mqtt.html) - Nmap MQTT Library
-* [MQTT-PWN](https://mqtt-pwn.readthedocs.io/en/latest/) - MQTT-PWN intends to be a one-stop-shop for IoT Broker penetration-testing and security assessment operations, as it combines enumeration, supportive functions and exploitation modules while packing it all within command-line-interface with an easy-to-use and extensible shell-like environment
-* [Eclipse Mosquitto](https://mosquitto.org/) - Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers
+* [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) ⭐ 12,832 | 🐛 221 | 🌐 C++ | 📅 2026-10-14 - Offensive and defensive Wi-Fi and Bluetooth toolkit running on ESP32 boards.
+* [aircrack-ng](https://www.aircrack-ng.org/) - Suite for monitoring, attacking, testing, and cracking Wi-Fi networks.
+* [Kismet](https://www.kismetwireless.net/) - Wireless network and device detector, sniffer, and WIDS that also supports Bluetooth, Zigbee, and SDR sources.
 
 ### Zigbee
 
-* [KillerBee](https://github.com/riverloopsec/killerbee) ⭐ 852 | 🐛 31 | 🌐 C | 📅 2023-09-12 - Framework and tools for sniffing, injecting, and auditing Zigbee and IEEE 802.15.4 networks
-* [ZigDiggity](https://github.com/BishopFox/zigdiggity) ⭐ 298 | 🐛 7 | 🌐 Python | 📅 2021-09-13 - ZigBee Hacking Toolkit
-* [RaspBee](https://phoscon.de/en/raspbee/) - The universal Raspberry Pi Zigbee gateway
-* [nRF52840 Dongle](https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle) - The nRF52840 Dongle is a small, low-cost USB dongle that supports Bluetooth 5.4, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary protocols
+* [KillerBee](https://github.com/riverloopsec/killerbee) ⭐ 852 | 🐛 34 | 🌐 C | 📅 2023-09-12 - Framework and tools for sniffing, injecting, and auditing Zigbee and IEEE 802.15.4 networks.
+* [ZigDiggity](https://github.com/BishopFox/zigdiggity) ⭐ 298 | 🐛 7 | 🌐 Python | 📅 2021-09-13 - Zigbee hacking toolkit from Bishop Fox.
+* [RaspBee](https://phoscon.de/en/raspbee/) - Zigbee gateway board for the Raspberry Pi.
+* [nRF52840 Dongle](https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle) - Low-cost USB dongle supporting Bluetooth LE, Thread, Zigbee, and IEEE 802.15.4, often used as a sniffer.
+
+### LoRaWAN, Thread and Cellular
+
+* [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer) ⭐ 2,247 | 🐛 26 | 🌐 C++ | 📅 2024-10-23 - Open-source LTE downlink and uplink eavesdropper.
+* [QCSuper](https://github.com/P1sec/QCSuper) ⭐ 1,665 | 🐛 121 | 🌐 Python | 📅 2026-10-12 - Captures 2G/3G/4G radio frames from Qualcomm-based phones and modems into Wireshark.
+* [LoRaWAN Auditing Framework](https://github.com/IOActive/laf) ⭐ 189 | 🐛 5 | 🌐 Python | 📅 2023-05-22 - Tools to craft, parse, send, analyze, and crack LoRaWAN packets during security audits.
+* [ChirpOTLE](https://github.com/seemoo-lab/chirpotle) ⭐ 43 | 🐛 2 | 🌐 Jupyter Notebook | 📅 2024-02-11 - LoRaWAN security evaluation framework for practical attacks on real networks.
+* [OpenThread](https://openthread.io/) - Open-source implementation of the Thread networking protocol, useful for building Thread and Matter test networks.
+* [srsRAN Project](https://www.srsran.com/) - Open-source 4G and 5G software radio suite for building cellular test networks.
+
+### MQTT
+
+* [Nmap MQTT Library](https://nmap.org/nsedoc/lib/mqtt.html) - NSE library for interacting with MQTT brokers from Nmap scripts.
+* [MQTT-PWN](https://mqtt-pwn.readthedocs.io/en/latest/) - One-stop shop for IoT broker penetration testing that combines enumeration, supportive functions, and exploitation modules in a shell-like CLI.
+* [Eclipse Mosquitto](https://mosquitto.org/) - Lightweight open-source broker implementing MQTT 5.0, 3.1.1, and 3.1, handy for building test setups.
+
+### USB
+
+* [Facedancer](https://github.com/greatscottgadgets/facedancer) ⭐ 1,034 | 🐛 23 | 🌐 Python | 📅 2026-05-22 - Python framework for emulating and fuzzing USB devices with GreatFET or Cynthion hardware.
+* [Cynthion](https://greatscottgadgets.com/cynthion/) - Open-source USB test instrument from Great Scott Gadgets for analyzing and emulating USB devices.
+
+### Automotive and CAN Bus
+
+* [can-utils](https://github.com/linux-can/can-utils) ⭐ 2,937 | 🐛 61 | 🌐 C | 📅 2026-10-14 - Linux SocketCAN user-space utilities for dumping, sending, and replaying CAN traffic.
+* [SavvyCAN](https://github.com/collin80/SavvyCAN) ⭐ 1,879 | 🐛 277 | 🌐 C++ | 📅 2026-10-15 - Cross-platform tool for capturing, visualizing, and reverse engineering CAN bus traffic.
+* [python-can](https://github.com/hardbyte/python-can) ⭐ 1,608 | 🐛 282 | 🌐 Python | 📅 2026-07-01 - Python library providing a common interface to many CAN hardware adapters.
+* [ICSim](https://github.com/zombieCraig/ICSim) ⭐ 985 | 🐛 21 | 🌐 C | 📅 2025-09-18 - Instrument cluster simulator for practicing CAN bus hacking with SocketCAN.
+* [Caring Caribou](https://github.com/CaringCaribou/caringcaribou) ⭐ 958 | 🐛 14 | 🌐 Python | 📅 2026-06-12 - Automotive security exploration tool for discovering ECUs and services over CAN, UDS, and XCP.
 
 ### Fault Injection - Glitching and Side Channel Analysis
 
-* [ChipSHOUTER-PicoEMP Kit](https://github.com/newaetech/chipshouter-picoemp) ⭐ 774 | 🐛 23 | 🌐 C | 📅 2024-08-28 - A lower-cost PicoEMP build for self-study and hobbyist EMFI research from the NewAE ecosystem
-* [RP2040: Pico Glitcher](https://github.com/ZeusWPI/pico-glitcher) ⭐ 104 | 🐛 1 | 🌐 Python | 📅 2024-05-06 - Low-cost, Raspberry Pi Pico chip based voltage glitcher
-* [ICEStick ICE40 FPGA Glitcher](https://github.com/SySS-Research/icestick-glitcher) ⭐ 63 | 🐛 0 | 🌐 Verilog | 📅 2020-01-30 - The iCEstick Glitcher is a simple voltage glitcher for a Lattice iCEstick Evaluation Kit
-* [An Introduction to Fault Injection by NCC Group](https://www.nccgroup.com/research/an-introduction-to-fault-injection-part-13/)
-* [One Glitch to Rule Them All: Fault Injection Attacks against AMD's Secure Processor](https://i.blackhat.com/EU-21/Wednesday/EU-21-Buhren-One-Glitch-to-Rule-them-All-Fault-Injection-Attacks-Against-AMDs-Secure-Processor.pdf)
-* [Chip.fail](https://chip.fail/) - With chip.fail, we attempt to bring fault-injection (aka glitching) attacks to the masses by providing a very affordable, off-the-shelf toolkit for conducting FI-susceptibility testing
-* [ChipWhisperer Kit](https://www.newae.com/chipwhisperer) - The ChipWhisperer ecosystem presents the first open-source, low-cost solution to expose weaknesses that exist in embedded systems all around us
-* [ChipSHOUTER Kit](https://rtfm.newae.com/ChipSHOUTER/ChipSHOUTER/) - The ChipSHOUTER (CW520) is a fully-featured Electromagnetic Fault Injection (EMFI) platform that can be used to discover and characterize vulnerabilities in embedded systems
+* [ChipSHOUTER-PicoEMP Kit](https://github.com/newaetech/chipshouter-picoemp) ⭐ 774 | 🐛 23 | 🌐 C | 📅 2024-08-28 - Lower-cost PicoEMP build for self-study and hobbyist EMFI research from the NewAE ecosystem.
+* [Lascar](https://github.com/Ledger-Donjon/lascar) ⭐ 416 | 🐛 3 | 🌐 Python | 📅 2023-09-05 - Ledger's Python library for side-channel analysis of power and electromagnetic traces.
+* [Rainbow](https://github.com/Ledger-Donjon/rainbow) ⭐ 202 | 🐛 10 | 🌐 Python | 📅 2026-04-02 - Unicorn-based simulator for generating side-channel traces and testing fault injection on code.
+* [Faulty Cat](https://github.com/ElectronicCats/faultycat) ⭐ 190 | 🐛 2 | 📅 2026-10-12 - Low-cost EMFI tool from Electronic Cats for self-study and hobbyist research.
+* [RP2040: Pico Glitcher](https://github.com/ZeusWPI/pico-glitcher) ⭐ 104 | 🐛 1 | 🌐 Python | 📅 2024-05-06 - Low-cost voltage glitcher based on the Raspberry Pi Pico.
+* [Faultier](https://github.com/hextreeio/faultier) ⭐ 65 | 🐛 4 | 🌐 C | 📅 2026-10-12 - Fault injection framework for the Raspberry Pi Pico combined with Hextree's Faultier hardware.
+* [ICEStick ICE40 FPGA Glitcher](https://github.com/SySS-Research/icestick-glitcher) ⭐ 63 | 🐛 0 | 🌐 Verilog | 📅 2020-01-30 - Simple voltage glitcher built on the Lattice iCEstick evaluation kit.
+* [An Introduction to Fault Injection by NCC Group](https://www.nccgroup.com/research/an-introduction-to-fault-injection-part-13/) - First part of a series introducing fault injection techniques and their impact on embedded devices.
+* [One Glitch to Rule Them All: Fault Injection Attacks against AMD's Secure Processor](https://i.blackhat.com/EU-21/Wednesday/EU-21-Buhren-One-Glitch-to-Rule-them-All-Fault-Injection-Attacks-Against-AMDs-Secure-Processor.pdf) - Black Hat Europe 2021 research on voltage glitching AMD's Secure Processor.
+* [ChipWhisperer Kit](https://www.newae.com/chipwhisperer) - Open-source, low-cost ecosystem for side-channel power analysis and glitching attacks.
+* [ChipSHOUTER Kit](https://rtfm.newae.com/ChipSHOUTER/ChipSHOUTER/) - Fully featured electromagnetic fault injection (EMFI) platform for discovering and characterizing vulnerabilities in embedded systems.
+* [Curious Bolt](https://bolt.curious.supplies/) - Low-cost voltage glitcher, logic analyzer, and differential power analysis tool on a single board.
+* [SCAred](https://gitlab.com/eshard/scared) - Open-source Python side-channel analysis library from eShard.
 
 ### Firmware Analysis and Exploit Frameworks
 
-* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,499 | 🐛 100 | 🌐 Rust | 📅 2026-08-11 - Binwalk is a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images
-* [RouterSploit](https://github.com/threat9/routersploit) ⭐ 13,264 | 🐛 96 | 🌐 Python | 📅 2026-05-05 - The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices
-* [EMBA The security analyzer for firmware of embedded devices](https://github.com/e-m-b-a/emba) ⭐ 3,715 | 🐛 18 | 🌐 Shell | 📅 2026-10-12 - EMBA is designed as the central firmware analysis tool for penetration testers and product security teams. It supports the complete security analysis process starting with firmware extraction, doing static analysis and dynamic analysis via emulation and finally generating a web report
-* [Unblob](https://github.com/onekey-sec/unblob) ⭐ 2,577 | 🐛 42 | 🌐 Python | 📅 2026-10-16 - Unblob is an accurate, fast, and easy-to-use extraction suite. It parses unknown binary blobs for more than 30 different archive, compression, and file-system formats, extracts their content recursively, and carves out unknown chunks that have not been accounted for
-* [FIRMADYNE](https://github.com/firmadyne/firmadyne) ⭐ 2,114 | 🐛 107 | 🌐 Shell | 📅 2024-07-21 - An automated system for performing emulation and dynamic analysis of Linux-based embedded firmware
-* [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit) ⭐ 1,007 | 🐛 62 | 🌐 C | 📅 2026-02-17 - The Firmware Mod Kit allows for easy deconstruction and reconstruction of firmware images for various embedded devices. While it primarily targets Linux based routers, it should be compatible with most firmware that makes use of common firmware formats and file systems such as TRX/uImage and SquashFS/CramFS
-* [FirmAE](https://github.com/pr0v3rbs/FirmAE) ⭐ 949 | 🐛 49 | 🌐 Python | 📅 2026-06-24 - A scalable firmware emulation framework that improves analysis coverage for Linux-based IoT firmware
-* [HomePwn - Swiss Army Knife for Pentesting of IoT Devices](https://github.com/Telefonica/HomePWN) ⚠️ Archived - HomePwn is a framework that provides features to audit and pentesting devices that company employees can use in their day-to-day work and inside the same working environment. It is designed to find devices in the home or office, take advantage of certain vulnerabilities to read or send data to those devices
-* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 891 | 🐛 19 | 🌐 Python | 📅 2026-08-20 - A full-system baseband firmware emulation platform for dynamic analysis of embedded and mobile firmware
-* [HAL - The Hardware Analyzer](https://github.com/emsec/hal) ⭐ 837 | 🐛 20 | 🌐 C++ | 📅 2026-10-13 - HAL is a comprehensive netlist reverse engineering and manipulation framework
-* [Panda.re](https://panda.re/) - PANDA is an open-source Platform for Architecture-Neutral Dynamic Analysis. It is built upon the QEMU whole system emulator, and so analyses have access to all code executing in the guest and all data. PANDA adds the ability to record and replay executions, enabling iterative, deep, whole system analyses
-* [The Firmware Analysis and Comparison Tool (FACT)](https://fkie-cad.github.io/FACT_core/) - The Firmware Analysis and Comparison Tool (FACT) is intended to automate firmware security analysis (routers, IoT, UEFI, webcams, drones). It is designed to be easy to use (web UI), extend (plug-in system), and integrate (REST API)
-* [EXPLIoT Framework](https://gitlab.com/expliot_framework/expliot) - A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones
-* [IoTSecFuzz(ISF)](https://gitlab.com/invuls/iot-projects/iotsecfuzz) - IoTSecFuzz(ISF) was created with the aim of combining the maximum number of utilities for comprehensive testing of IoT device security at all levels of implementation. It has a convenient console in order to use it as a stand-alone application, as well as the ability to import it as a library
-* [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer
+* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,503 | 🐛 100 | 🌐 Rust | 📅 2026-08-11 - Fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images.
+* [RouterSploit](https://github.com/threat9/routersploit) ⭐ 13,266 | 🐛 96 | 🌐 Python | 📅 2026-05-05 - Open-source exploitation framework dedicated to embedded devices.
+* [Qiling](https://github.com/qilingframework/qiling) ⭐ 6,140 | 🐛 115 | 🌐 Python | 📅 2026-09-24 - Binary emulation framework built on Unicorn with operating system and firmware awareness.
+* [UEFITool](https://github.com/LongSoft/UEFITool) ⭐ 5,755 | 🐛 26 | 🌐 C | 📅 2026-07-29 - Viewer and editor for UEFI firmware images.
+* [EMBA The security analyzer for firmware of embedded devices](https://github.com/e-m-b-a/emba) ⭐ 3,715 | 🐛 19 | 🌐 Shell | 📅 2026-10-12 - Central firmware analysis tool for penetration testers and product security teams, covering extraction, static analysis, emulation-based dynamic analysis, and web reporting.
+* [Unblob](https://github.com/onekey-sec/unblob) ⭐ 2,581 | 🐛 42 | 🌐 Python | 📅 2026-10-16 - Accurate extraction suite that recursively unpacks dozens of archive, compression, and file-system formats and carves out unknown chunks.
+* [FIRMADYNE](https://github.com/firmadyne/firmadyne) ⭐ 2,115 | 🐛 107 | 🌐 Shell | 📅 2024-07-21 - Automated system for emulating and dynamically analyzing Linux-based embedded firmware.
+* [cwe\_checker](https://github.com/fkie-cad/cwe_checker) ⭐ 1,361 | 🐛 32 | 🌐 Rust | 📅 2026-09-28 - Detects common bug classes such as buffer overflows and integer issues in binaries using Ghidra.
+* [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit) ⭐ 1,007 | 🐛 62 | 🌐 C | 📅 2026-02-17 - Scripts to deconstruct and rebuild firmware images, mainly Linux-based router images using TRX/uImage and SquashFS/CramFS.
+* [FirmAE](https://github.com/pr0v3rbs/FirmAE) ⭐ 950 | 🐛 48 | 🌐 Python | 📅 2026-06-24 - Scalable firmware emulation framework that improves analysis coverage for Linux-based IoT firmware.
+* [HomePwn - Swiss Army Knife for Pentesting of IoT Devices](https://github.com/Telefonica/HomePWN) ⚠️ Archived - Framework for discovering and auditing IoT devices in home and office environments. Archived by its maintainers.
+* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 891 | 🐛 19 | 🌐 Python | 📅 2026-08-20 - Full-system baseband firmware emulation platform for dynamic analysis of embedded and mobile firmware.
+* [HAL - The Hardware Analyzer](https://github.com/emsec/hal) ⭐ 837 | 🐛 22 | 🌐 C++ | 📅 2026-10-13 - Comprehensive netlist reverse engineering and manipulation framework.
+* [UBI Reader](https://github.com/onekey-sec/ubi_reader) ⭐ 643 | 🐛 10 | 🌐 Python | 📅 2026-09-13 - Tools for extracting UBI and UBIFS images.
+* [binbloom](https://github.com/quarkslab/binbloom) ⭐ 586 | 🐛 2 | 🌐 C | 📅 2024-06-06 - Finds the load address and endianness of raw firmware images.
+* [avatar2](https://github.com/avatartwo/avatar2) ⭐ 579 | 🐛 27 | 🌐 Python | 📅 2025-03-31 - Orchestration framework for dynamic firmware analysis that combines emulators with real hardware.
+* [EMBArk](https://github.com/e-m-b-a/embark) ⭐ 396 | 🐛 15 | 🌐 Python | 📅 2026-07-31 - Web-based enterprise frontend for EMBA.
+* [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) ⭐ 388 | 🐛 15 | 🌐 Python | 📅 2026-06-27 - Automated, self-configuring fuzzing framework for microcontroller firmware.
+* [fwhunt-scan](https://github.com/binarly-io/fwhunt-scan) ⭐ 245 | 🐛 0 | 🌐 Python | 📅 2025-05-02 - Binarly's scanner for detecting vulnerabilities in UEFI firmware with FwHunt rules.
+* [Jefferson](https://github.com/onekey-sec/jefferson) ⭐ 97 | 🐛 0 | 🌐 Python | 📅 2026-10-14 - JFFS2 file system extractor.
+* [Greenhouse](https://github.com/sefcom/greenhouse) ⭐ 81 | 🐛 6 | 🌐 Python | 📅 2023-11-01 - Single-service rehosting of Linux-based firmware in user-space emulation.
+* [Penguin](https://github.com/rehosting/penguin) ⭐ 74 | 🐛 93 | 🌐 Python | 📅 2026-10-17 - Target-centric rehosting framework for running and analyzing Linux-based firmware.
+* [Panda.re](https://panda.re/) - Platform for Architecture-Neutral Dynamic Analysis built on QEMU, with record and replay for deep whole-system analyses.
+* [The Firmware Analysis and Comparison Tool (FACT)](https://fkie-cad.github.io/FACT_core/) - Automates firmware security analysis of routers, IoT devices, UEFI, webcams, and drones, with a web UI, plugin system, and REST API.
+* [EXPLIoT Framework](https://gitlab.com/expliot_framework/expliot) - Extensible framework of plugins for security testing and exploiting IoT products and infrastructure.
+* [IoTSecFuzz(ISF)](https://gitlab.com/invuls/iot-projects/iotsecfuzz) - Combines many utilities for comprehensive IoT security testing at all implementation levels, usable as a console or a Python library.
+* [QEMU](https://www.qemu.org/) - Generic, open-source machine emulator and virtualizer.
+* [Renode](https://antmicro.com/platforms/renode/) - Antmicro's open-source framework for simulating MCUs, SoCs, and multi-node embedded systems.
+* [Unicorn](https://www.unicorn-engine.org/) - Lightweight multi-architecture CPU emulator framework.
 
 ### Reverse Engineering
 
-* [Ghidra](https://ghidra-sre.org/) - A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
-* [IDA Pro](https://hex-rays.com/ida-pro/) - IDA Pro as a disassembler is capable of creating maps of their execution to show the binary instructions that are actually executed by the processor in a symbolic representation (assembly language)
-* [Binary Ninja](https://binary.ninja/) - A modern reverse engineering platform with strong automation support for interactive binary analysis
-* [Radare2](https://radare.org/n/radare2.html) - A free/libre toolchain for easing several low level tasks like forensics, software reverse engineering, exploiting, debugging
-* [Cutter](https://cutter.re/) - An open-source GUI for Radare2 framework, Cutter's goal is to be an advanced FREE and open-source reverse-engineering platform while keeping the user experience at mind
-* [GDB: The GNU Project Debugger](https://www.sourceware.org/gdb/) - GDB allows you to see what is going on inside another program while it executes or what another program was doing at the moment it crashed
-* [x64dbg](https://x64dbg.com/) - An open-source x64/x32 debugger for Windows
+* [Ghidra](https://github.com/NationalSecurityAgency/ghidra) ⭐ 90,522 | 🐛 2,106 | 🌐 Java | 📅 2026-10-16 - Software reverse engineering suite developed by the NSA Research Directorate.
+* [SVD-Loader for Ghidra](https://github.com/leveldown-security/SVD-Loader-Ghidra) ⭐ 592 | 🐛 22 | 🌐 Python | 📅 2024-02-01 - Loads CMSIS-SVD peripheral definitions into Ghidra to label memory-mapped MCU registers.
+* [IDA Pro](https://hex-rays.com/ida-pro/) - Commercial interactive disassembler and decompiler supporting a wide range of processor architectures.
+* [Binary Ninja](https://binary.ninja/) - Modern reverse engineering platform with strong automation support for interactive binary analysis.
+* [Radare2](https://radare.org/n/radare2.html) - Free/libre toolchain for forensics, software reverse engineering, exploiting, and debugging.
+* [Cutter](https://cutter.re/) - Free and open-source reverse engineering GUI powered by Rizin.
+* [GDB: The GNU Project Debugger](https://www.sourceware.org/gdb/) - Standard debugger for inspecting running programs, widely used with OpenOCD and QEMU for embedded targets.
+* [Rizin](https://rizin.re/) - Portable reverse engineering framework and radare2 fork that powers Cutter.
+* [angr](https://angr.io/) - Python binary analysis framework with symbolic execution support.
+* [Frida](https://frida.re/) - Dynamic instrumentation toolkit for hooking and tracing code on Linux, Android, and other platforms.
+* [ImHex](https://imhex.werwolv.net/) - Hex editor with a pattern language for parsing binary formats, well suited to firmware work.
+
+### Silicon Reverse Engineering
+
+* [Degate](https://github.com/DegateCommunity/Degate) ⭐ 295 | 🐛 0 | 🌐 C++ | 📅 2024-11-25 - Tool for reverse engineering digital logic from chip die images.
+* [siliconpr0n](https://siliconpr0n.org/) - Wiki and archive of decapped integrated circuit die photos.
 
 ### Fuzzing
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,813 | 🐛 23 | 🌐 C | 📅 2026-10-16 - AFL++ is a superior fork to Google's AFL - more speed, more and better mutations, more and better instrumentation, custom module support
-* [Boofuzz: Network Protocol Fuzzing for Humans](https://github.com/jtpereyda/boofuzz) ⭐ 2,364 | 🐛 101 | 🌐 Python | 📅 2026-09-21 - Boofuzz is a fork of and the successor to the venerable Sulley fuzzing framework. Besides numerous bug fixes, boofuzz aims for extensibility
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,814 | 🐛 22 | 🌐 C | 📅 2026-10-18 - Community-maintained successor to Google's AFL with faster execution, better mutations and instrumentation, and QEMU/Unicorn modes for firmware.
+* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,663 | 🐛 131 | 🌐 Rust | 📅 2026-09-16 - Rust library for building custom, high-performance fuzzers.
+* [Boofuzz: Network Protocol Fuzzing for Humans](https://github.com/jtpereyda/boofuzz) ⭐ 2,364 | 🐛 101 | 🌐 Python | 📅 2026-09-21 - Extensible network protocol fuzzing framework and successor to Sulley.
 
 ### Misc Tools
 
-* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,320 | 🐛 45 | 🌐 Python | 📅 2026-10-12 - A platform security assessment framework for analyzing the security of PC hardware, firmware, and low-level platform components
-* [Flashrom](https://github.com/flashrom/flashrom) ⭐ 1,185 | 🐛 80 | 🌐 C | 📅 2026-10-16 - Flashrom is a utility for detecting, reading, writing, verifying and erasing flash chips. It is often used to flash BIOS/EFI/coreboot/firmware images in-system using a supported mainboard, but it also supports flashing of network cards (NICs), SATA controller cards, and other external devices which can program flash chips
-* [JTAGenum](https://github.com/cyphunk/JTAGenum) ⭐ 803 | 🐛 14 | 🌐 C++ | 📅 2023-10-30 - Given an Arduino compatible microcontroller or Raspberry PI (experimental), JTAGenum scans pins for basic JTAG functionality and can be used to enumerate the Instruction Register for undocumented instructions
-* [Dumpflash](https://github.com/ohjeongwook/dumpflash) ⭐ 321 | 🐛 21 | 🌐 Python | 📅 2022-03-17 - Low-level NAND Flash dump and parsing utility
+* [esptool](https://github.com/espressif/esptool) ⭐ 6,513 | 🐛 19 | 🌐 Python | 📅 2026-10-15 - Espressif's utility for talking to the ROM bootloader to read and write flash and eFuses on ESP chips.
+* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,321 | 🐛 45 | 🌐 Python | 📅 2026-10-12 - Platform security assessment framework for analyzing the security of PC hardware, firmware, and low-level platform components.
+* [Flashrom](https://github.com/flashrom/flashrom) ⭐ 1,186 | 🐛 80 | 🌐 C | 📅 2026-10-16 - Utility for detecting, reading, writing, verifying, and erasing flash chips, both in-system and through external programmers.
+* [JTAGenum](https://github.com/cyphunk/JTAGenum) ⭐ 803 | 🐛 14 | 🌐 C++ | 📅 2023-10-30 - Scans pins with an Arduino-compatible board or Raspberry Pi to find JTAG and enumerate undocumented instructions.
+* [IMSProg](https://github.com/bigbigmdm/IMSProg) ⭐ 705 | 🐛 38 | 🌐 C++ | 📅 2026-10-16 - Open-source programmer software for CH341A-based SPI and I2C flash and EEPROM programmers.
+* [Dumpflash](https://github.com/ohjeongwook/dumpflash) ⭐ 321 | 🐛 21 | 🌐 Python | 📅 2022-03-17 - Low-level NAND flash dump and parsing utility.
+* [Hak5 Packet Squirrel](https://shop.hak5.org/products/packet-squirrel-mark-ii) - Ethernet tap for capturing device traffic.
 
 ## Penetration Test Use-Cases
 
-* [Bosch Smart Home Hacks by Sebastien Leger](https://github.com/vegantransistor/BoschSmartHome) ⭐ 26 | 🐛 1 | 🌐 C | 📅 2023-08-16
-* [Getting Root on Philips Hue Bridge 2.0 by Colin O'Flynn](https://colinoflynn.com/2016/07/getting-root-on-philips-hue-bridge-2-0/)
-* [How I hacked a hardware crypto wallet and recovered $2 million by Joe Grand](https://youtu.be/dT9y-KQbqi4?si=k1Zwfd0KIZgRZb-j)
-* [How the Apple AirTags were hacked by Thomas Roth](https://www.youtube.com/watch?v=_E0PWQvW-14)
-* [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal by Lennert Wouters](https://www.youtube.com/watch?v=NXqLMmGwJm0)
-* [SECGlitcher - Reproducible Voltage Glitching on STM32 Microcontrollers by SEC Consult](https://sec-consult.com/blog/detail/secglitcher-part-1-reproducible-voltage-glitching-on-stm32-microcontrollers/)
-* [Fault Injection Attacks against the ESP32-C3 and ESP32-C6 by Kevin Courdesses](https://courk.cc/esp32-c3-c6-fault-injection)
-* [Breaking the Flash Encryption Feature of Espressif's Parts by Kevin Courdesses](https://courk.cc/breaking-flash-encryption-of-espressif-parts)
+* [Bosch Smart Home Hacks by Sebastien Leger](https://github.com/vegantransistor/BoschSmartHome) ⭐ 26 | 🐛 1 | 🌐 C | 📅 2023-08-16 - Hardware attacks and firmware analysis on the Bosch Smart Home Controller.
+* [Getting Root on Philips Hue Bridge 2.0 by Colin O'Flynn](https://colinoflynn.com/2016/07/getting-root-on-philips-hue-bridge-2-0/) - Hardware attack walkthrough on the Philips Hue Bridge 2.0.
+* [How I hacked a hardware crypto wallet and recovered $2 million by Joe Grand](https://youtu.be/dT9y-KQbqi4?si=k1Zwfd0KIZgRZb-j) - Recovering a locked Trezor One wallet through voltage glitching.
+* [How the Apple AirTags were hacked by Thomas Roth](https://www.youtube.com/watch?v=_E0PWQvW-14) - Glitching the nRF52 in Apple AirTags to dump and modify their firmware.
+* [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal by Lennert Wouters](https://www.youtube.com/watch?v=NXqLMmGwJm0) - Voltage glitching the Starlink user terminal with a custom modchip.
+* [SECGlitcher - Reproducible Voltage Glitching on STM32 Microcontrollers by SEC Consult](https://sec-consult.com/blog/detail/secglitcher-part-1-reproducible-voltage-glitching-on-stm32-microcontrollers/) - Building a reproducible voltage glitching setup against STM32 microcontrollers.
+* [Fault Injection Attacks against the ESP32-C3 and ESP32-C6 by Kevin Courdesses](https://courk.cc/esp32-c3-c6-fault-injection) - Practical glitching of Espressif's RISC-V chips to defeat their security features.
+* [Breaking the Flash Encryption Feature of Espressif's Parts by Kevin Courdesses](https://courk.cc/breaking-flash-encryption-of-espressif-parts) - Attack on the flash encryption feature of recent Espressif chips.
+* [RP2350 Hacking Challenge Results by Raspberry Pi](https://www.raspberrypi.com/news/security-through-transparency-rp2350-hacking-challenge-results-are-in/) - Winning attacks against the RP2350's secure boot and OTP protections, including glitching and laser fault injection.
+* [Shedding too much Light on a Microcontroller's Firmware Protection by Johannes Obermaier and Stefan Tatschner](https://www.usenix.org/conference/woot17/workshop-program/presentation/obermaier) - WOOT '17 paper bypassing STM32F0 readout protection with cold-boot stepping and UV-C attacks.
 
 ## Standards and Regulations
 
-* [ETSI EN 303 645 - Cyber Security for Consumer Internet of Things: Baseline Requirements](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.00_30/en_303645v020100v.pdf)
-* [UK Code of Practice for Consumer IoT Security](https://www.gov.uk/government/publications/code-of-practice-for-consumer-iot-security)
-* [EU Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
-* [Radio Equipment Directive (RED)](https://eur-lex.europa.eu/eli/reg_del/2022/30/oj) - On the 12th January 2022, the European Commission updated the Radio Equipment Directive (RED), which establishes a regulatory framework for placing radio equipment on the market, to include additional legislation related to security (2022/30/EU)
-* [USA IoT Cybersecurity Improvement Act of 2020](https://www.congress.gov/bill/116th-congress/house-bill/1668)
-* [The UK Product Security and Telecommunications Infrastructure (Product Security) regime](https://www.gov.uk/government/publications/the-uk-product-security-and-telecommunications-infrastructure-product-security-regime) - The UK's consumer connectable product security regime came into effect on 29 April 2024. Businesses in the supply chains of these products need to comply with the legislation from that date
-* [Common Criteria](https://www.commoncriteriaportal.org/index.cfm) - The Common Criteria for Information Technology Security Evaluation (CC) ensures that products can be evaluated by competent and independent licensed laboratories so as to determine the fulfilment of particular security properties, to a certain extent or assurance
-* [NISTIR 8259: Recommendations for IoT Device Manufacturers: Foundational Activities](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series)
-* [ARM PSA IoT Security Framework and Certification](https://www.psacertified.org/) - ARM PSA Certified is providing a common language for the industry, allowing the entire value chain to work to the same requirements. The PSA Certified framework offers a standardized approach from initial IoT security design and implementation to security evaluation
-* [China CCRC: Implementation Rules on the Compulsory Certification of Information Technology Equipment](https://www.tuvsud.com/en/e-ssentials-newsletter/consumer-products-and-retail-essentials/e-ssentials-4-2023/china-implementation-rules-ccrc-c09-001-2022-for-compulsory-certification-of-it-equipment)
-* [The C2 Consensus on CSDE - IoT Device Security Baseline Capabilities](https://csde.org/projects/c2-consensus/)
-* [Information and Communication Security Guide by TUBITAK BILGEM OKTEM](https://oktem.bilgem.tubitak.gov.tr/en/information-and-communication-security-guide/) - English overview of Turkiye's Information and Communication Security Guide and its supporting programme
-* [Turkiye TR-Test Cyber Security Tests IoT Criteria](https://tr-test.com.tr/trtest/views/portalHeader/detay-56) - The criteria for cybersecurity in IoT products, developed through meetings and workshops involving the Presidency of Defence Industries, TRTEST, and participants from relevant IoT device manufacturers, laboratories, and academia, have been established based on ETSI 303 645
-* [NIST Recommended Criteria for Cybersecurity Labeling for Consumer Internet of Things (IoT) Products](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.02042022-2.pdf)
-* [ISO/IEC 27402:2023 Cybersecurity - IoT security and privacy: Device baseline requirements](https://www.iso.org/obp/ui/#iso:std:iso-iec:27402:ed-1:v1:en)
-* [Cybersecurity Labelling Scheme (CLS) by Cyber Security Agency of Singapore](https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/about/) - The cybersecurity label provides an indication of the level of security in network-connected smart devices and helps consumers make better-informed purchasing decisions
-* [IASME IoT Cyber](https://iasme.co.uk/iasme-iot-cyber/) - IASME's certification scheme for internet-connected devices, covering both baseline and assurance levels aligned to UK legislation and ETSI EN 303 645
-* [Finland's National Consumer IoT Certification Scheme - The Finnish Cybersecurity Label (NCSC-FI)](https://tietoturvamerkki.fi/sites/default/files/media/file/cybersecurity_label_presentation-280920.pdf) - The label guarantees to consumers that the labelled devices have basic information security features. The Cybersecurity label can be awarded to networking smart devices if the devices meet the certification criteria, which are based on EN 303 645
-* [Global Platform Security Evaluation Standard for IoT Platforms(SESIP)](https://globalplatform.org/sesip/) - GlobalPlatform is here to support IoT device makers and certification bodies to adopt the Security Evaluation Standard for IoT Platforms (SESIP) methodology and establish their own IoT device security certification schemes
+* [ETSI EN 303 645 - Cyber Security for Consumer Internet of Things: Baseline Requirements](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf) - European baseline security requirements for consumer IoT devices (V3.1.3).
+* [ETSI TS 103 701 - Cyber Security for Consumer Internet of Things: Conformance Assessment of Baseline Requirements](https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf) - Test cases and assessment criteria for checking conformance with ETSI EN 303 645.
+* [UK Code of Practice for Consumer IoT Security](https://www.gov.uk/government/publications/code-of-practice-for-consumer-iot-security) - UK government guidelines for securing consumer IoT products, the basis for ETSI EN 303 645.
+* [EU Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act) - EU regulation setting cybersecurity requirements for products with digital elements across their lifecycle.
+* [Radio Equipment Directive (RED)](https://eur-lex.europa.eu/eli/reg_del/2022/30/oj) - Delegated Regulation (EU) 2022/30 adding cybersecurity, privacy, and fraud-protection requirements to the Radio Equipment Directive, applicable since 1 August 2025.
+* [EN 18031-1/-2/-3 Harmonised Standards for RED](https://eur-lex.europa.eu/eli/dec_impl/2025/138/oj) - Implementing Decision (EU) 2025/138 citing the EN 18031 series as harmonised standards for the RED cybersecurity requirements, with restrictions.
+* [USA IoT Cybersecurity Improvement Act of 2020](https://www.congress.gov/bill/116th-congress/house-bill/1668) - US law setting minimum security requirements for IoT devices procured by federal agencies.
+* [US Cyber Trust Mark](https://www.fcc.gov/CyberTrustMark) - FCC's voluntary cybersecurity labeling program for consumer wireless IoT products.
+* [The UK Product Security and Telecommunications Infrastructure (Product Security) regime](https://www.gov.uk/government/publications/the-uk-product-security-and-telecommunications-infrastructure-product-security-regime) - UK consumer connectable product security regime, in force since 29 April 2024, for everyone in the supply chain of these products.
+* [Common Criteria](https://www.commoncriteriaportal.org/index.cfm) - International framework for independent, lab-based security evaluation and certification of IT products.
+* [NISTIR 8259: Recommendations for IoT Device Manufacturers: Foundational Activities](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series) - NIST guidance on foundational cybersecurity activities and device capabilities for IoT manufacturers.
+* [ARM PSA IoT Security Framework and Certification](https://www.psacertified.org/) - Security framework and certification scheme for IoT chips, platforms, and devices.
+* [China CCRC: Implementation Rules on the Compulsory Certification of Information Technology Equipment](https://www.tuvsud.com/en/knowledge-hub/technical-updates/consumer-products-and-retail-essentials/china-implementation-rules-ccrc-c09-001-2022-for-compulsory-certification-of-it-equipment) - Summary of China's compulsory certification rules for IT equipment (CCRC-C09-001:2022).
+* [The C2 Consensus on CSDE - IoT Device Security Baseline Capabilities](https://csde.org/projects/c2-consensus/) - Industry consensus on baseline security capabilities for IoT devices.
+* [Information and Communication Security Guide by TUBITAK BILGEM OKTEM](https://oktem.bilgem.tubitak.gov.tr/en/information-and-communication-security-guide/) - English overview of Turkiye's Information and Communication Security Guide and its supporting programme.
+* [NIST Recommended Criteria for Cybersecurity Labeling for Consumer Internet of Things (IoT) Products](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.02042022-2.pdf) - NIST's recommended criteria for a consumer IoT cybersecurity labeling program.
+* [ISO/IEC 27402:2023 Cybersecurity - IoT security and privacy: Device baseline requirements](https://www.iso.org/obp/ui/#iso:std:iso-iec:27402:ed-1:v1:en) - International baseline security and privacy requirements for IoT devices.
+* [Cybersecurity Labelling Scheme (CLS) by Cyber Security Agency of Singapore](https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/about/) - Tiered label that indicates the security level of network-connected smart devices to help consumers choose.
+* [IASME IoT Cyber](https://iasme.co.uk/iasme-iot-cyber/) - IASME's certification scheme for internet-connected devices, covering both baseline and assurance levels aligned to UK legislation and ETSI EN 303 645.
+* [Global Platform Security Evaluation Standard for IoT Platforms(SESIP)](https://globalplatform.org/sesip/) - Methodology for security evaluation of IoT platforms that certification schemes can reuse.
+* [JC-STAR](https://www.ipa.go.jp/en/security/jc-star/) - Japan's IoT product security labeling scheme operated by IPA.
+* [ioXt](https://ioxt.com/) - Industry certification program for IoT device security based on ioXt profiles.
+* [ISA/IEC 62443](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards) - Industrial automation security standards, with IEC 62443-4-2 defining requirements for embedded and IoT components.
+* [ISO/SAE 21434](https://www.iso.org/standard/70918.html) - Cybersecurity engineering standard for road vehicle electrical and electronic systems.
+* [UN Regulation No. 155](https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security) - UNECE regulation requiring a cyber security management system for vehicle type approval.
+* [UN Regulation No. 156](https://unece.org/transport/documents/2021/03/standards/un-regulation-no-156-software-update-and-software-update) - UNECE regulation on software update management systems for vehicles.
 
 ## Books
 
-* [The Hacker's Hardware Toolkit: The best collection of hardware gadgets for red team hackers, pentesters and security researchers](https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf) ⭐ 2,180 | 🐛 5 | 📅 2020-09-07 - 2020, Publisher: N/A, Author(s): Yago Hansen
-* [Arm Assembly Internals and Reverse Engineering: Blue Fox Edition](https://www.wiley.com/en-be/Blue+Fox:+Arm+Assembly+Internals+and+Reverse+Engineering-p-9781119745303) - 2023, Publisher: Wiley, Author(s): Maria Markstedter aka Azeria
-* [Practical Hardware Pentesting, Second edition](https://www.packtpub.com/product/practical-hardware-pentesting-second-edition-second-edition/9781803249322) - 2023, Publisher: Packt, Author(s): Jean-Georges Valle
-* [Hardware Security Training, Hands-on!](https://link.springer.com/book/10.1007/978-3-031-31034-8) - 2023, Publisher: Springer, Author(s): Mark Tehranipoor, N. Nalla Anandakumar, Farimah Farahmandi
-* [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks](https://nostarch.com/hardwarehacking) - 2021, Publisher: No Starch Press, Author(s): Jasper van Woudenberg, Colin O'Flynn
-* [The IoT Hacker's Handbook: A Practical Guide to Hacking the Internet of Things](https://www.oreilly.com/library/view/the-iot-hackers/9781484243008/) - 2019, Publisher: Apress, Author(s):  Aditya Gupta
-* [Hardware Security: A Hands-on Learning Approach](https://shop.elsevier.com/books/hardware-security/bhunia/978-0-12-812477-2) - 2018, Publisher: Morgan Kaufmann, Author(s): Swarup Bhunia, Mark M. Tehranipoor
-* [IoT Penetration Testing Cookbook](https://www.packtpub.com/product/iot-penetration-testing-cookbook/9781787280571) - 2017, Publisher: Packt, Author(s): Aaron Guzman, Aditya Gupta
+* [The Hacker's Hardware Toolkit: The best collection of hardware gadgets for red team hackers, pentesters and security researchers](https://github.com/yadox666/The-Hackers-Hardware-Toolkit/blob/master/TheHackersHardwareToolkit.pdf) ⭐ 2,180 | 🐛 5 | 📅 2020-09-07 - 2020, Publisher: N/A, Author(s): Yago Hansen.
+* [Microcontroller Exploits](https://nostarch.com/microcontroller-exploits) - 2024, Publisher: No Starch Press, Author(s): Travis Goodspeed.
+* [Arm Assembly Internals and Reverse Engineering: Blue Fox Edition](https://www.wiley.com/en-be/Blue+Fox:+Arm+Assembly+Internals+and+Reverse+Engineering-p-9781119745303) - 2023, Publisher: Wiley, Author(s): Maria Markstedter aka Azeria.
+* [Practical Hardware Pentesting, Second edition](https://www.packtpub.com/product/practical-hardware-pentesting-second-edition-second-edition/9781803249322) - 2023, Publisher: Packt, Author(s): Jean-Georges Valle.
+* [Hardware Security Training, Hands-on!](https://link.springer.com/book/10.1007/978-3-031-31034-8) - 2023, Publisher: Springer, Author(s): Mark Tehranipoor, N. Nalla Anandakumar, Farimah Farahmandi.
+* [Practical IoT Hacking](https://nostarch.com/practical-iot-hacking) - 2021, Publisher: No Starch Press, Author(s): Fotios Chantzis, Ioannis Stais, Paulino Calderon, Evangelos Deirmentzoglou, Beau Woods.
+* [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks](https://nostarch.com/hardwarehacking) - 2021, Publisher: No Starch Press, Author(s): Jasper van Woudenberg, Colin O'Flynn.
+* [The IoT Hacker's Handbook: A Practical Guide to Hacking the Internet of Things](https://www.oreilly.com/library/view/the-iot-hackers/9781484243008/) - 2019, Publisher: Apress, Author(s): Aditya Gupta.
+* [Hardware Security: A Hands-on Learning Approach](https://shop.elsevier.com/books/hardware-security/bhunia/978-0-12-812477-2) - 2018, Publisher: Morgan Kaufmann, Author(s): Swarup Bhunia, Mark M. Tehranipoor.
+* [The Hardware Hacker](https://nostarch.com/hardwarehackerpaperback) - 2017, Publisher: No Starch Press, Author(s): Andrew "bunnie" Huang.
+* [IoT Penetration Testing Cookbook](https://www.packtpub.com/product/iot-penetration-testing-cookbook/9781787280571) - 2017, Publisher: Packt, Author(s): Aaron Guzman, Aditya Gupta.
+* [The Car Hacker's Handbook](https://nostarch.com/carhacking) - 2016, Publisher: No Starch Press, Author(s): Craig Smith.
+* [Hacking the Xbox](https://bunniefoo.com/nostarch/HackingTheXbox_Free.pdf) - 2003, Publisher: No Starch Press, Author(s): Andrew "bunnie" Huang. Free PDF released by the author.
 
 ## Useful Websites
 
-* [The MITRE EMB3D Threat Model](https://emb3d.mitre.org/) - The EMB3D Threat Model provides a cultivated knowledge base of cyber threats to embedded devices, providing a common understanding of these threats with security mechanisms to mitigate them.
-* [OWASP Embedded Application Security Project](https://owasp.org/www-project-embedded-application-security/) - Produces a document that will provide a detailed technical pathway for manufacturers to build secure devices for an increasingly insecure world.
-* [OWASP Internet of Things Project](https://owasp.org/www-project-internet-of-things/) -  Is designed to help manufacturers, developers, and consumers better understand the security issues associated with the Internet of Things, and to enable users in any context to make better security decisions when building, deploying, or assessing IoT technologies.
-* [ETSI Consumer IoT security](https://etsi.org/technologies/consumer-iot-security) - The Consumer IoT Security Road Map provides an overview of ETSI's world-leading work in consumer IoT security
-* [Godbolt Compiler Explorer](https://godbolt.org/) - Online compiler for all purposes
-* [Dogbolt Decompiler Explorer](https://dogbolt.org/) - Online decompiler for all purposes
-* [Instruction Reference for x86 and amd64](https://www.felixcloutier.com/x86/index.html)
-* [Hardware Hacking Lab Guide](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide) - Beginners guide to building a hardware hacking Lab
+* [The MITRE EMB3D Threat Model](https://emb3d.mitre.org/) - Knowledge base of cyber threats to embedded devices, with security mechanisms to mitigate them.
+* [OWASP Embedded Application Security Project](https://owasp.org/projects/embedded-application-security) - Technical guidance for manufacturers on building secure embedded devices.
+* [OWASP Internet of Things Project](https://owasp.org/projects/internet-of-things) - Helps manufacturers, developers, and consumers understand IoT security issues and make better security decisions.
+* [ETSI Cybersecurity, Privacy and Users](https://www.etsi.org/technologies/cybersecurity-privacy-users/) - ETSI's hub for cybersecurity standardization, including its consumer IoT security work.
+* [Godbolt Compiler Explorer](https://godbolt.org/) - Online tool for comparing the assembly generated by many compilers and architectures.
+* [Dogbolt Decompiler Explorer](https://dogbolt.org/) - Online tool for comparing output from multiple decompilers side by side.
+* [Instruction Reference for x86 and amd64](https://www.felixcloutier.com/x86/index.html) - Searchable x86 and amd64 instruction set reference.
+* [Hardware Hacking Lab Guide](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide) - Beginner's guide to building a hardware hacking lab.
+* [FCC ID Search](https://fccid.io/) - Search FCC filings for internal photos, test reports, and manuals of wireless devices.
+* [Octopart](https://octopart.com/) - Electronic component search engine for finding datasheets and part details.
+* [Azeria Labs](https://azeria-labs.com/) - Tutorials on Arm assembly, exploitation, and reverse engineering.
 
-## Youtube Channels
+## YouTube Channels
 
-* [Colin O'Flynn](https://www.youtube.com/@ColinOFlynn)
-* [Joe Grand aka kingpin](https://www.youtube.com/@JoeGrand)
-* [stacksmashing](https://www.youtube.com/@stacksmashing)
-* [LiveOverflow](https://www.youtube.com/@LiveOverflow)
-* [hackaday](https://www.youtube.com/@hackaday)
-* [GuidedHacking](https://www.youtube.com/@GuidedHacking)
-* [RECESSIM](https://www.youtube.com/@RECESSIM)
-* [IoTVillage](https://www.youtube.com/@IoTVillage)
-* [Flashback Team](https://www.youtube.com/@FlashbackTeam)
+* [Colin O'Flynn](https://www.youtube.com/@ColinOFlynn) - Fault injection, side-channel analysis, and ChipWhisperer demos.
+* [Joe Grand aka kingpin](https://www.youtube.com/@JoeGrand) - Hardware hacking projects, including crypto wallet recoveries.
+* [stacksmashing](https://www.youtube.com/@stacksmashing) - Hardware hacking and reverse engineering of consumer devices.
+* [LiveOverflow](https://www.youtube.com/@LiveOverflow) - Security research and CTF videos, including a hardware security series.
+* [hackaday](https://www.youtube.com/@hackaday) - Conference talks and videos on electronics and hardware hacking.
+* [RECESSIM](https://www.youtube.com/@RECESSIM) - Hardware reverse engineering videos and livestreams.
+* [IoTVillage](https://www.youtube.com/@IoTVillage) - Talks from the DEF CON IoT Village.
+* [Flashback Team](https://www.youtube.com/@FlashbackTeam) - IoT and router exploitation, including Pwn2Own research.
+* [Matt Brown](https://www.youtube.com/@mattbrwn) - IoT hacking, firmware extraction, and bug hunting walkthroughs.
+* [Hextree](https://www.youtube.com/@hextreeio) - Hardware and mobile security videos from the Hextree training team.
 
 ## Twitter Accounts
 
-* [Xeno Kovah](https://twitter.com/XenoKovah)
-* [LiveOverflow](https://twitter.com/LiveOverflow)
-* [Colin O'Flynn](https://twitter.com/colinoflynn)
-* [Hash](https://twitter.com/BitBangingBytes)
-* [Cesar Cerrudo](https://twitter.com/cesarcer)
-* [stacksmashing](https://twitter.com/ghidraninja)
-* [Ken Munro](https://twitter.com/TheKenMunroShow)
-* [Travis Goodspeed](https://twitter.com/travisgoodspeed)
-* [Michael Ossmann](https://twitter.com/michaelossmann)
-* [Azeria](https://twitter.com/Fox0x01)
-* [Cybergibbons](https://twitter.com/cybergibbons)
-* [Slawomir Jasek](https://twitter.com/slawekja)
-* [Aseem Jakhar](https://twitter.com/aseemjakhar)
-* [Kate Temkin](https://twitter.com/ktemkin)
-* [Joe Fitz](https://twitter.com/securelyfitz)
-* [Stephen A. Ridley](https://twitter.com/s7ephen)
-* [Charlie Miller](https://twitter.com/0xcharlie)
-* [Samy Kamkar](https://twitter.com/samykamkar)
-* [/dev/ttyS0](https://twitter.com/devttyS0)
+* [Xeno Kovah](https://twitter.com/XenoKovah) - Founder of OpenSecurityTraining2, focused on firmware and Bluetooth security.
+* [LiveOverflow](https://twitter.com/LiveOverflow) - Security researcher and educator.
+* [Colin O'Flynn](https://twitter.com/colinoflynn) - Creator of ChipWhisperer and founder of NewAE Technology.
+* [Hash](https://twitter.com/BitBangingBytes) - Hardware reverse engineering and hacking.
+* [Cesar Cerrudo](https://twitter.com/cesarcer) - IoT and smart city security researcher.
+* [stacksmashing](https://twitter.com/ghidraninja) - Hardware hacker known for the AirTag and Game & Watch hacks.
+* [Ken Munro](https://twitter.com/TheKenMunroShow) - Founder of Pen Test Partners, researching IoT, automotive, and aviation security.
+* [Travis Goodspeed](https://twitter.com/travisgoodspeed) - Author of Microcontroller Exploits and creator of the GoodFET.
+* [Michael Ossmann](https://twitter.com/michaelossmann) - Founder of Great Scott Gadgets and creator of HackRF.
+* [Azeria](https://twitter.com/Fox0x01) - Arm reverse engineering and exploitation researcher, author of Blue Fox.
+* [Cybergibbons](https://twitter.com/cybergibbons) - Embedded and IoT security researcher.
+* [Slawomir Jasek](https://twitter.com/slawekja) - Bluetooth LE and smart lock security researcher.
+* [Aseem Jakhar](https://twitter.com/aseemjakhar) - Founder of Payatu and nullcon, creator of EXPLIoT.
+* [Kate Temkin](https://twitter.com/ktemkin) - Hardware and USB security researcher, known for Fusée Gelée and USB tooling.
+* [Joe Fitz](https://twitter.com/securelyfitz) - Hardware security trainer at SecuringHardware.com.
+* [Stephen A. Ridley](https://twitter.com/s7ephen) - Embedded security researcher and hardware hacking trainer.
+* [Charlie Miller](https://twitter.com/0xcharlie) - Automotive security researcher known for the remote Jeep Cherokee hack.
+* [Samy Kamkar](https://twitter.com/samykamkar) - Hardware and RF hacker behind projects such as OpenSesame and KeySweeper.
+* [/dev/ttyS0](https://twitter.com/devttyS0) - Embedded security researcher and original author of binwalk.
 
 ## Blogs
 
-* [Cybergibbons](https://cybergibbons.com/)
-* [Hackaday](https://hackaday.com/)
-* [VoidStar Security Research and Blog Wiki](https://voidstarsec.com/hw-hacking-lab/) - Wiki articles on hardware hacking and other hardware security related content
-* [Riscure's Blog](https://www.riscure.com/blog/)
-* [Quarkslab's Blog](https://blog.quarkslab.com/)
-* [SRLabs' Blog](https://www.srlabs.de/blog)
-* [Wrongbaud's Blog](https://wrongbaud.github.io/)
-* [Pentest Partners Security Blog](https://www.pentestpartners.com/security-blog/)
-* [Limited Results' Blog](https://limitedresults.com/)
-* [embeddedsecurity.io](https://embeddedsecurity.io/) - Embedded systems security and trustzone e-book
+* [Cybergibbons](https://cybergibbons.com/) - Embedded and IoT security research.
+* [Hackaday](https://hackaday.com/) - Daily hardware hacking news and projects.
+* [VoidStar Security Research and Blog Wiki](https://voidstarsec.com/hw-hacking-lab/) - Wiki articles on hardware hacking and other hardware security related content.
+* [Riscure's Blog](https://www.riscure.com/blog/) - Side-channel, fault injection, and embedded security research.
+* [Quarkslab's Blog](https://blog.quarkslab.com/) - Reverse engineering, vulnerability, and hardware security research.
+* [SRLabs' Blog](https://www.srlabs.de/blog) - Research on embedded, telecom, and payment security.
+* [Wrongbaud's Blog](https://wrongbaud.github.io/) - Practical hardware hacking tutorials and teardowns.
+* [Pen Test Partners Security Blog](https://www.pentestpartners.com/security-blog/) - IoT, automotive, and maritime security research.
+* [Limited Results' Blog](https://limitedresults.com/) - Fault injection research on SoCs such as the ESP32 and nRF52.
+* [embeddedsecurity.io](https://embeddedsecurity.io/) - Embedded systems security and TrustZone e-book.
+* [Ledger Donjon](https://donjon.ledger.com/) - Hardware wallet, side-channel, and fault injection research from Ledger's security team.
+* [NCC Group Research](https://www.nccgroup.com/research/) - Hardware, embedded, and cryptography research publications.
+* [Synacktiv Publications](https://www.synacktiv.com/publications) - Research on embedded devices, Pwn2Own targets, and reverse engineering.
+* [Raelize Blog](https://raelize.com/blog/) - Fault injection research and techniques.
+* [bunnie's blog](https://www.bunniestudios.com/) - Andrew "bunnie" Huang's writing on hardware, supply chains, and open hardware.
+* [Midnight Blue Research](https://www.midnightblue.nl/knowledge?type=Research) - Embedded and radio protocol security research, including TETRA:BURST.
+* [Binarly Blog](https://www.binarly.io/blog) - UEFI and firmware supply chain security research.
+* [Eclypsium Blog](https://eclypsium.com/blog/) - Firmware and hardware supply chain security research.
+* [Claroty Team82](https://claroty.com/team82) - Research on OT, IoT, and medical device vulnerabilities.
+* [Nozomi Networks Labs](https://www.nozominetworks.com/labs) - OT and IoT vulnerability research.
 
 ## Trainings
 
-* [OpenSecurityTraining2](https://ost2.fyi/) - OpenSecurityTraining2's mission is to provide the world's deepest and best cybersecurity training
-* [Cyberpath: Practical IoT Hacking](https://cyberpath.training/) - Hands-on IoT hacking training
-* [Hextree.io](https://www.hextree.io/) - Introduction to hardware hacking training
-* [Attify Offensive IoT Exploitation](https://www.attify-store.com/collections/training) - Offensive IoT Exploitation
-* [Introduction to Reverse Engineering with Ghidra](https://hackaday.io/course/172292-introduction-to-reverse-engineering-with-ghidra) - Learn how to reverse engineer software using Ghidra! This four-session course will walk you through the basics.
+* [OpenSecurityTraining2](https://ost2.fyi/) - Free in-depth security courses, including firmware, x86, and Arm topics.
+* [Cyberpath: Practical IoT Hacking](https://cyberpath.training/) - Hands-on IoT hacking training.
+* [Hextree.io](https://www.hextree.io/) - Online courses on hardware hacking and mobile security.
+* [Attify Offensive IoT Exploitation](https://www.attify-store.com/collections/training) - IoT exploitation training covering firmware, radio, and hardware attacks.
+* [Introduction to Reverse Engineering with Ghidra](https://hackaday.io/course/172292-introduction-to-reverse-engineering-with-ghidra) - Four-session course that walks through the basics of reverse engineering software with Ghidra.
+* [VoidStar Security Training](https://voidstarsec.com/training) - Hardware hacking and reverse engineering courses.
+* [SecuringHardware.com](https://securinghardware.com/) - Joe FitzPatrick's hardware security trainings.
 
 ## Practice Targets and CTFs
 
-* [IoTGoat](https://github.com/OWASP/IoTGoat) ⭐ 951 | 🐛 2 | 🌐 C | 📅 2025-10-05 - A deliberately insecure OpenWrt-based firmware for learning and practicing IoT security testing
-* [EMUX](https://github.com/therealsaumil/emux) ⭐ 876 | 🐛 12 | 🌐 Python | 📅 2025-08-22 - An embedded device emulation framework that is useful for building reproducible firmware-analysis labs
-* [DVRF: Damn Vulnerable Router Firmware](https://github.com/praetorian-inc/DVRF) ⚠️ Archived - A vulnerable router firmware image built for hands-on embedded web and firmware exploitation practice
-* [RHme-2016](https://github.com/Riscure/Rhme-2016) ⭐ 4 | 🐛 0 | 📅 2024-08-28 - Riscure Hack Me 2 hardware CTF challenge
-* [RHme-2015](https://github.com/Riscure/RHme-2015) ⭐ 0 | 🐛 0 | 📅 2024-08-25 - Riscure Hack Me hardware CTF challenge
-* [RHme-2017/2018](https://github.com/Riscure/Rhme-2017) ⭐ 0 | 🐛 0 | 📅 2024-08-28 - Riscure Hack Me 3 hardware CTF challenge
+* [IoTGoat](https://github.com/OWASP/IoTGoat) ⭐ 951 | 🐛 2 | 🌐 C | 📅 2025-10-05 - Deliberately insecure OpenWrt-based firmware for learning and practicing IoT security testing.
+* [EMUX](https://github.com/therealsaumil/emux) ⭐ 876 | 🐛 12 | 🌐 Python | 📅 2025-08-22 - Embedded device emulation framework for building reproducible firmware-analysis labs.
+* [BLE CTF](https://github.com/hackgnar/ble_ctf) ⭐ 783 | 🐛 1 | 🌐 C | 📅 2026-08-07 - Bluetooth Low Energy capture-the-flag that runs on an ESP32.
+* [DVRF: Damn Vulnerable Router Firmware](https://github.com/praetorian-inc/DVRF) ⚠️ Archived - Vulnerable router firmware image for hands-on embedded web and firmware exploitation practice. Archived by its maintainers.
+* [DVID](https://github.com/Vulcainreo/DVID) ⭐ 227 | 🐛 3 | 🌐 C | 📅 2024-02-12 - Damn Vulnerable IoT Device, a purpose-built board for practicing hardware and firmware attacks.
+* [RHme-2016](https://github.com/Riscure/Rhme-2016) ⭐ 4 | 🐛 0 | 📅 2024-08-28 - Riscure Hack Me 2 hardware CTF challenge.
+* [RHme-2015](https://github.com/Riscure/RHme-2015) ⭐ 0 | 🐛 0 | 📅 2024-08-25 - Riscure Hack Me hardware CTF challenge.
+* [RHme-2017/2018](https://github.com/Riscure/Rhme-2017) ⭐ 0 | 🐛 0 | 📅 2024-08-28 - Riscure Hack Me 3 hardware CTF challenge.
+* [Microcorruption](https://microcorruption.com/) - Browser-based embedded exploitation CTF against simulated MSP430 smart locks.
 
 ## Conferences
 
-* [Hardwear.io Security Trainings and Conference](https://hardwear.io/)
-* [HITB Security Conference](https://conference.hitb.org/)
-* [IoT Security Foundation Conference](https://iotsecurityfoundation.org/conference/)
-* [CHES: Cryptographic Hardware and Embedded Systems](https://ches.iacr.org/)
-* [COSADE: Constructive Side-Channel Analysis and Secure Design](https://www.cosade.org/cosade24/)
-* [HASP Hardware and Architectural Support for Security and Privacy Workshop](https://haspworkshop.org/)
-* [SILM Security of Software/Hardware Interfaces Workshop](https://silm-workshop.github.io/)
-* [HACK@DAC](https://dac.com/2026/hack-at-dac) - HACK\@DAC is a hardware security challenge contest, co-located with the Design Automation Conference (DAC), for finding and exploiting security-critical vulnerabilities in hardware and firmware. In this competition, participants compete to identify the security vulnerabilities, implement the related exploits, propose mitigation techniques or patches, and report them
+* [Hardwear.io Security Trainings and Conference](https://hardwear.io/) - Hardware security trainings and conference held in Europe and the USA.
+* [HITB Security Conference](https://conference.hitb.org/) - Hack In The Box security conference with hardware and IoT content.
+* [IoT Security Foundation Conference](https://iotsecurityfoundation.org/conference/) - Annual conference of the IoT Security Foundation.
+* [CHES: Cryptographic Hardware and Embedded Systems](https://ches.iacr.org/) - IACR conference on the design and analysis of cryptographic hardware and embedded systems.
+* [HASP Hardware and Architectural Support for Security and Privacy Workshop](https://www.haspworkshop.org/) - Workshop on hardware and architecture-level security and privacy.
+* [SILM Security of Software/Hardware Interfaces Workshop](https://silm-workshop.github.io/) - Workshop on the security of software and hardware interfaces.
+* [HACK@DAC](https://archive.dac.com/conference/hackdac.html) - Hardware security challenge co-located with the Design Automation Conference where teams find, exploit, and patch vulnerabilities in an open-source SoC.
+* [DEF CON Hardware Hacking Village](https://dchhv.org/) - Hardware hacking talks, contests, and hands-on activities at DEF CON.
+* [IoT Village](https://www.iotvillage.org/) - IoT hacking talks, contests, and workshops at DEF CON and other events.
+* [Car Hacking Village](https://www.carhackingvillage.com/) - Automotive security talks, CTFs, and hands-on activities.
+* [REcon](https://recon.cx/) - Reverse engineering conference in Montreal with strong hardware content.
+* [TROOPERS](https://troopers.de/) - IT security conference in Heidelberg with hardware and embedded tracks.
+* [Chaos Communication Congress](https://events.ccc.de/) - Annual CCC congress with many hardware and embedded security talks.
+* [OffensiveCon](https://www.offensivecon.org/) - Offensive security conference in Berlin focused on vulnerability research and exploitation.
+* [nullcon](https://nullcon.net/) - Security conference in India and Germany with a hardware village.
+* [escar](https://escar.info/) - Automotive cyber security conference.
 
 ## Awesome Lists
 
-* [Awesome Connected Things Security](https://github.com/V33RU/awesome-connected-things-sec) ⭐ 3,560 | 🐛 3 | 📅 2026-10-16 - A curated list of IoT and connected-things security resources
-* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,473 | 🐛 1 | 📅 2023-10-17
-* [Awesome IoT Hacks](https://github.com/nebgnahz/awesome-iot-hacks) ⭐ 2,436 | 🐛 3 | 📅 2020-05-16
-* [TEE Reversing](https://github.com/enovella/TEE-reversing) ⭐ 1,042 | 🐛 0 | 📅 2026-01-07 - A curated list of public TEE resources for learning how to reverse-engineer and achieve trusted code execution on ARM devices
-* [Awesome Bluetooth Security (BR, EDR, LE, and Mesh)](https://github.com/engn33r/awesome-bluetooth-security) ⭐ 619 | 🐛 0 | 📅 2025-10-03
-* [Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux) ⚠️ Archived
+* [Awesome Fuzzing](https://github.com/secfigo/Awesome-Fuzzing) ⭐ 5,923 | 🐛 12 | 📅 2024-04-03 - Curated fuzzing books, courses, tools, and tutorials.
+* [Awesome Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security) ⭐ 4,712 | 🐛 7 | 📅 2026-05-30 - Curated vehicle and automotive security resources.
+* [Awesome Connected Things Security](https://github.com/V33RU/awesome-connected-things-sec) ⭐ 3,560 | 🐛 3 | 📅 2026-10-16 - Curated list of IoT and connected-things security resources.
+* [Awesome Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,474 | 🐛 1 | 📅 2023-10-17 - Curated embedded and IoT security resources from Fraunhofer FKIE.
+* [Awesome IoT Hacks](https://github.com/nebgnahz/awesome-iot-hacks) ⭐ 2,436 | 🐛 3 | 📅 2020-05-16 - Collection of documented hacks against IoT devices.
+* [Awesome Industrial Control System Security](https://github.com/hslatman/awesome-industrial-control-system-security) ⭐ 2,041 | 🐛 17 | 🌐 Python | 📅 2025-10-10 - Curated ICS security resources.
+* [TEE Reversing](https://github.com/enovella/TEE-reversing) ⭐ 1,042 | 🐛 0 | 📅 2026-01-07 - Curated list of public TEE resources for learning how to reverse engineer and achieve trusted code execution on Arm devices.
+* [Awesome Bluetooth Security (BR, EDR, LE, and Mesh)](https://github.com/engn33r/awesome-bluetooth-security) ⭐ 619 | 🐛 0 | 📅 2025-10-03 - Curated Bluetooth Classic, Low Energy, and mesh security resources.
+* [Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux) ⚠️ Archived - Curated embedded Linux resources. Archived by its maintainers.
+* [Awesome Hardware and IoT Hacking](https://github.com/JoasASantos/Awesome-Hardware-and-IoT-Hacking) ⭐ 410 | 🐛 1 | 📅 2024-07-07 - Curated hardware and IoT hacking resources.
+* [Awesome Embedded Linux Security](https://github.com/kayranfatih/awesome-embedded-linux-security) ⭐ 23 | 🐛 0 | 📅 2026-10-17 - Companion list on embedded Linux and platform security.
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-17._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-18._
